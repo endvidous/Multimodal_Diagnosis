@@ -1,0 +1,4671 @@
+{
+  "panic disorder": {
+    "age_min": 15,
+    "age_max": 65,
+    "age_peak": 30,
+    "male_pct": 33,
+    "source": "chatgpt"
+  },
+  "vocal cord polyp": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 45,
+    "male_pct": 75,
+    "source": "chatgpt"
+  },
+  "turner syndrome": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 0,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "cryptorchidism": {
+    "age_min": 0,
+    "age_max": 1,
+    "age_peak": 0,
+    "male_pct": 100,
+    "source": "chatgpt"
+  },
+  "atrophic vaginitis": {
+    "age_min": 45,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "cellulitis or abscess of mouth": {
+    "age_min": 5,
+    "age_max": 85,
+    "age_peak": 40,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "headache after lumbar puncture": {
+    "age_min": 18,
+    "age_max": 70,
+    "age_peak": 35,
+    "male_pct": 30,
+    "source": "chatgpt"
+  },
+  "pyloric stenosis": {
+    "age_min": 0,
+    "age_max": 1,
+    "age_peak": 0,
+    "male_pct": 80,
+    "source": "chatgpt"
+  },
+  "salivary gland disorder": {
+    "age_min": 5,
+    "age_max": 85,
+    "age_peak": 50,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "osteochondrosis": {
+    "age_min": 10,
+    "age_max": 20,
+    "age_peak": 14,
+    "male_pct": 70,
+    "source": "chatgpt"
+  },
+  "metabolic disorder": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 50,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "vaginitis": {
+    "age_min": 15,
+    "age_max": 85,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "sick sinus syndrome": {
+    "age_min": 50,
+    "age_max": 95,
+    "age_peak": 75,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "tinnitus of unknown cause": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "glaucoma": {
+    "age_min": 40,
+    "age_max": 95,
+    "age_peak": 75,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "eating disorder": {
+    "age_min": 12,
+    "age_max": 40,
+    "age_peak": 18,
+    "male_pct": 10,
+    "source": "chatgpt"
+  },
+  "transient ischemic attack": {
+    "age_min": 45,
+    "age_max": 95,
+    "age_peak": 72,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "pyelonephritis": {
+    "age_min": 15,
+    "age_max": 85,
+    "age_peak": 30,
+    "male_pct": 15,
+    "source": "chatgpt"
+  },
+  "rotator cuff injury": {
+    "age_min": 30,
+    "age_max": 85,
+    "age_peak": 55,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "chronic pain disorder": {
+    "age_min": 18,
+    "age_max": 90,
+    "age_peak": 50,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "problem during pregnancy": {
+    "age_min": 18,
+    "age_max": 45,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "liver cancer": {
+    "age_min": 40,
+    "age_max": 85,
+    "age_peak": 65,
+    "male_pct": 70,
+    "source": "chatgpt"
+  },
+  "atelectasis": {
+    "age_min": 0,
+    "age_max": 95,
+    "age_peak": 70,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "choledocholithiasis": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "cirrhosis": {
+    "age_min": 30,
+    "age_max": 85,
+    "age_peak": 55,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "thoracic aortic aneurysm": {
+    "age_min": 50,
+    "age_max": 90,
+    "age_peak": 70,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "subdural hemorrhage": {
+    "age_min": 0,
+    "age_max": 95,
+    "age_peak": 75,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "diabetic retinopathy": {
+    "age_min": 25,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "fibromyalgia": {
+    "age_min": 20,
+    "age_max": 75,
+    "age_peak": 45,
+    "male_pct": 10,
+    "source": "chatgpt"
+  },
+  "ischemia of the bowel": {
+    "age_min": 60,
+    "age_max": 95,
+    "age_peak": 75,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "fetal alcohol syndrome": {
+    "age_min": 0,
+    "age_max": 18,
+    "age_peak": 0,
+    "male_pct": 52,
+    "source": "chatgpt"
+  },
+  "peritonitis": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 50,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "injury to the abdomen": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 30,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "acute pancreatitis": {
+    "age_min": 20,
+    "age_max": 85,
+    "age_peak": 50,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "thrombophlebitis": {
+    "age_min": 25,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "asthma": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 15,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "restless leg syndrome": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 35,
+    "source": "chatgpt"
+  },
+  "emphysema": {
+    "age_min": 45,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "cysticercosis": {
+    "age_min": 5,
+    "age_max": 70,
+    "age_peak": 35,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "infectious gastroenteritis": {
+    "age_min": 0,
+    "age_max": 95,
+    "age_peak": 5,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "acute sinusitis": {
+    "age_min": 2,
+    "age_max": 90,
+    "age_peak": 35,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "substance-related mental disorder": {
+    "age_min": 15,
+    "age_max": 70,
+    "age_peak": 25,
+    "male_pct": 70,
+    "source": "chatgpt"
+  },
+  "postpartum depression": {
+    "age_min": 18,
+    "age_max": 45,
+    "age_peak": 28,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "coronary atherosclerosis": {
+    "age_min": 35,
+    "age_max": 95,
+    "age_peak": 65,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "spondylitis": {
+    "age_min": 15,
+    "age_max": 50,
+    "age_peak": 30,
+    "male_pct": 70,
+    "source": "chatgpt"
+  },
+  "pituitary adenoma": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "uterine fibroids": {
+    "age_min": 25,
+    "age_max": 55,
+    "age_peak": 40,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "idiopathic nonmenstrual bleeding": {
+    "age_min": 15,
+    "age_max": 55,
+    "age_peak": 35,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "ovarian torsion": {
+    "age_min": 15,
+    "age_max": 50,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "retinopathy due to high blood pressure": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "vaginal yeast infection": {
+    "age_min": 15,
+    "age_max": 60,
+    "age_peak": 28,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "mastoiditis": {
+    "age_min": 0,
+    "age_max": 15,
+    "age_peak": 5,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "hypertrophic obstructive cardiomyopathy (hocm)": {
+    "age_min": 15,
+    "age_max": 50,
+    "age_peak": 30,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "pulmonary eosinophilia": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "corneal disorder": {
+    "age_min": 5,
+    "age_max": 95,
+    "age_peak": 60,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "endophthalmitis": {
+    "age_min": 0,
+    "age_max": 95,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "intestinal malabsorption": {
+    "age_min": 0,
+    "age_max": 85,
+    "age_peak": 40,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "hyperhidrosis": {
+    "age_min": 15,
+    "age_max": 50,
+    "age_peak": 25,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "stroke": {
+    "age_min": 18,
+    "age_max": 95,
+    "age_peak": 72,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "pilonidal cyst": {
+    "age_min": 15,
+    "age_max": 35,
+    "age_peak": 22,
+    "male_pct": 80,
+    "source": "chatgpt"
+  },
+  "alopecia": {
+    "age_min": 15,
+    "age_max": 70,
+    "age_peak": 35,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "hashimoto thyroiditis": {
+    "age_min": 20,
+    "age_max": 75,
+    "age_peak": 45,
+    "male_pct": 10,
+    "source": "chatgpt"
+  },
+  "flat feet": {
+    "age_min": 0,
+    "age_max": 40,
+    "age_peak": 10,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "nonalcoholic liver disease (nash)": {
+    "age_min": 25,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "hemarthrosis": {
+    "age_min": 0,
+    "age_max": 70,
+    "age_peak": 20,
+    "male_pct": 95,
+    "source": "chatgpt"
+  },
+  "pelvic organ prolapse": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "coagulation (bleeding) disorder": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 30,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "intracranial hemorrhage": {
+    "age_min": 0,
+    "age_max": 95,
+    "age_peak": 70,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "hyperkalemia": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "cornea infection": {
+    "age_min": 5,
+    "age_max": 90,
+    "age_peak": 55,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "abscess of the lung": {
+    "age_min": 30,
+    "age_max": 85,
+    "age_peak": 60,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "dengue fever": {
+    "age_min": 0,
+    "age_max": 75,
+    "age_peak": 25,
+    "male_pct": 52,
+    "source": "chatgpt"
+  },
+  "chronic sinusitis": {
+    "age_min": 5,
+    "age_max": 85,
+    "age_peak": 40,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "cholesteatoma": {
+    "age_min": 5,
+    "age_max": 60,
+    "age_peak": 30,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "volvulus": {
+    "age_min": 0,
+    "age_max": 85,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "atrial fibrillation": {
+    "age_min": 40,
+    "age_max": 95,
+    "age_peak": 75,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "pinworm infection": {
+    "age_min": 2,
+    "age_max": 12,
+    "age_peak": 7,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "urethral valves": {
+    "age_min": 0,
+    "age_max": 5,
+    "age_peak": 0,
+    "male_pct": 100,
+    "source": "chatgpt"
+  },
+  "achalasia": {
+    "age_min": 25,
+    "age_max": 70,
+    "age_peak": 45,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "conductive hearing loss": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 50,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "abdominal hernia": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 55,
+    "male_pct": 75,
+    "source": "chatgpt"
+  },
+  "cerebral palsy": {
+    "age_min": 0,
+    "age_max": 18,
+    "age_peak": 2,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "marijuana abuse": {
+    "age_min": 15,
+    "age_max": 60,
+    "age_peak": 30,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "cryptococcosis": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "obesity": {
+    "age_min": 5,
+    "age_max": 90,
+    "age_peak": 45,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "indigestion": {
+    "age_min": 15,
+    "age_max": 90,
+    "age_peak": 45,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "bursitis": {
+    "age_min": 30,
+    "age_max": 80,
+    "age_peak": 55,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "esophageal cancer": {
+    "age_min": 50,
+    "age_max": 85,
+    "age_peak": 68,
+    "male_pct": 75,
+    "source": "chatgpt"
+  },
+  "pulmonary congestion": {
+    "age_min": 40,
+    "age_max": 95,
+    "age_peak": 75,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "juvenile rheumatoid arthritis": {
+    "age_min": 1,
+    "age_max": 16,
+    "age_peak": 10,
+    "male_pct": 35,
+    "source": "chatgpt"
+  },
+  "actinic keratosis": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "acute otitis media": {
+    "age_min": 0,
+    "age_max": 10,
+    "age_peak": 2,
+    "male_pct": 52,
+    "source": "chatgpt"
+  },
+  "astigmatism": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 20,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "tuberous sclerosis": {
+    "age_min": 0,
+    "age_max": 40,
+    "age_peak": 10,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "empyema": {
+    "age_min": 10,
+    "age_max": 80,
+    "age_peak": 55,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "presbyacusis": {
+    "age_min": 50,
+    "age_max": 100,
+    "age_peak": 75,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "neonatal jaundice": {
+    "age_min": 0,
+    "age_max": 0,
+    "age_peak": 0,
+    "male_pct": 52,
+    "source": "chatgpt"
+  },
+  "chronic obstructive pulmonary disease (copd)": {
+    "age_min": 45,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "spondylosis": {
+    "age_min": 40,
+    "age_max": 95,
+    "age_peak": 65,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "herpangina": {
+    "age_min": 1,
+    "age_max": 10,
+    "age_peak": 4,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "infection of open wound": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 40,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "deep vein thrombosis (dvt)": {
+    "age_min": 25,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "protein deficiency": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 25,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "myoclonus": {
+    "age_min": 5,
+    "age_max": 80,
+    "age_peak": 40,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "bone spur of the calcaneous": {
+    "age_min": 30,
+    "age_max": 80,
+    "age_peak": 55,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "von willebrand disease": {
+    "age_min": 0,
+    "age_max": 70,
+    "age_peak": 20,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "heart block": {
+    "age_min": 40,
+    "age_max": 95,
+    "age_peak": 75,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "colonic polyp": {
+    "age_min": 45,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "magnesium deficiency": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "female infertility of unknown cause": {
+    "age_min": 20,
+    "age_max": 40,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "pericarditis": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "attention deficit hyperactivity disorder (adhd)": {
+    "age_min": 3,
+    "age_max": 25,
+    "age_peak": 10,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "pulmonic valve disease": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 40,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "tietze syndrome": {
+    "age_min": 15,
+    "age_max": 50,
+    "age_peak": 30,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "cranial nerve palsy": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 55,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "conversion disorder": {
+    "age_min": 15,
+    "age_max": 50,
+    "age_peak": 30,
+    "male_pct": 25,
+    "source": "chatgpt"
+  },
+  "complex regional pain syndrome": {
+    "age_min": 20,
+    "age_max": 60,
+    "age_peak": 40,
+    "male_pct": 30,
+    "source": "chatgpt"
+  },
+  "otosclerosis": {
+    "age_min": 20,
+    "age_max": 50,
+    "age_peak": 35,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "hypothyroidism": {
+    "age_min": 20,
+    "age_max": 85,
+    "age_peak": 50,
+    "male_pct": 15,
+    "source": "chatgpt"
+  },
+  "primary insomnia": {
+    "age_min": 15,
+    "age_max": 80,
+    "age_peak": 45,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "vitamin b12 deficiency": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "diabetes": {
+    "age_min": 5,
+    "age_max": 95,
+    "age_peak": 55,
+    "male_pct": 52,
+    "source": "chatgpt"
+  },
+  "vulvodynia": {
+    "age_min": 18,
+    "age_max": 50,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "endometriosis": {
+    "age_min": 15,
+    "age_max": 50,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "vasculitis": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "oral leukoplakia": {
+    "age_min": 30,
+    "age_max": 80,
+    "age_peak": 55,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "chronic kidney disease": {
+    "age_min": 30,
+    "age_max": 95,
+    "age_peak": 70,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "bladder disorder": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "chorioretinitis": {
+    "age_min": 10,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "priapism": {
+    "age_min": 10,
+    "age_max": 70,
+    "age_peak": 35,
+    "male_pct": 100,
+    "source": "chatgpt"
+  },
+  "myositis": {
+    "age_min": 10,
+    "age_max": 80,
+    "age_peak": 45,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "mononucleosis": {
+    "age_min": 10,
+    "age_max": 35,
+    "age_peak": 20,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "neuralgia": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 55,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "polycystic kidney disease": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 45,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "bipolar disorder": {
+    "age_min": 15,
+    "age_max": 60,
+    "age_peak": 25,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "amyloidosis": {
+    "age_min": 50,
+    "age_max": 85,
+    "age_peak": 65,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "chronic inflammatory demyelinating polyneuropathy (cidp)": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 55,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "gastroesophageal reflux disease (gerd)": {
+    "age_min": 18,
+    "age_max": 90,
+    "age_peak": 50,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "vitreous hemorrhage": {
+    "age_min": 30,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "scleroderma": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 45,
+    "male_pct": 25,
+    "source": "chatgpt"
+  },
+  "myasthenia gravis": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 40,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "hypoglycemia": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 50,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "idiopathic absence of menstruation": {
+    "age_min": 12,
+    "age_max": 40,
+    "age_peak": 25,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "panic attack": {
+    "age_min": 15,
+    "age_max": 60,
+    "age_peak": 30,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "plantar fasciitis": {
+    "age_min": 30,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "hyperopia": {
+    "age_min": 5,
+    "age_max": 90,
+    "age_peak": 50,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "pemphigus": {
+    "age_min": 30,
+    "age_max": 80,
+    "age_peak": 55,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "peyronie disease": {
+    "age_min": 40,
+    "age_max": 70,
+    "age_peak": 55,
+    "male_pct": 100,
+    "source": "chatgpt"
+  },
+  "hiatal hernia": {
+    "age_min": 30,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "extrapyramidal effect of drugs": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "meniere disease": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 45,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "anal fissure": {
+    "age_min": 15,
+    "age_max": 60,
+    "age_peak": 35,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "allergy": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 20,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "chronic otitis media": {
+    "age_min": 1,
+    "age_max": 20,
+    "age_peak": 6,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "hirschsprung disease": {
+    "age_min": 0,
+    "age_max": 5,
+    "age_peak": 0,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "polymyalgia rheumatica": {
+    "age_min": 50,
+    "age_max": 90,
+    "age_peak": 70,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "lymphedema": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 55,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "bladder cancer": {
+    "age_min": 50,
+    "age_max": 90,
+    "age_peak": 70,
+    "male_pct": 75,
+    "source": "chatgpt"
+  },
+  "acute bronchospasm": {
+    "age_min": 1,
+    "age_max": 70,
+    "age_peak": 25,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "acute glaucoma": {
+    "age_min": 40,
+    "age_max": 80,
+    "age_peak": 60,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "sciatica": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "hypercalcemia": {
+    "age_min": 30,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "stress incontinence": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 50,
+    "male_pct": 25,
+    "source": "chatgpt"
+  },
+  "varicose veins": {
+    "age_min": 30,
+    "age_max": 90,
+    "age_peak": 55,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "benign kidney cyst": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "hydrocele of the testicle": {
+    "age_min": 0,
+    "age_max": 70,
+    "age_peak": 30,
+    "male_pct": 100,
+    "source": "chatgpt"
+  },
+  "degenerative disc disease": {
+    "age_min": 30,
+    "age_max": 85,
+    "age_peak": 55,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "hirsutism": {
+    "age_min": 10,
+    "age_max": 45,
+    "age_peak": 25,
+    "male_pct": 5,
+    "source": "chatgpt"
+  },
+  "hydronephrosis": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 40,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "diverticulosis": {
+    "age_min": 40,
+    "age_max": 95,
+    "age_peak": 70,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "pain after an operation": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 50,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "huntington disease": {
+    "age_min": 30,
+    "age_max": 60,
+    "age_peak": 45,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "lymphoma": {
+    "age_min": 15,
+    "age_max": 90,
+    "age_peak": 55,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "dermatitis due to sun exposure": {
+    "age_min": 10,
+    "age_max": 80,
+    "age_peak": 45,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "anemia due to chronic kidney disease": {
+    "age_min": 30,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "scleritis": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 45,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "pterygium": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 45,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "fungal infection of the skin": {
+    "age_min": 5,
+    "age_max": 80,
+    "age_peak": 30,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "insulin overdose": {
+    "age_min": 10,
+    "age_max": 80,
+    "age_peak": 35,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "syndrome of inappropriate secretion of adh (siadh)": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "premenstrual tension syndrome": {
+    "age_min": 12,
+    "age_max": 50,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "orbital cellulitis": {
+    "age_min": 1,
+    "age_max": 40,
+    "age_peak": 10,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "hepatic encephalopathy": {
+    "age_min": 30,
+    "age_max": 80,
+    "age_peak": 60,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "bone cancer": {
+    "age_min": 10,
+    "age_max": 70,
+    "age_peak": 30,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "syringomyelia": {
+    "age_min": 10,
+    "age_max": 60,
+    "age_peak": 35,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "pulmonary fibrosis": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "mitral valve disease": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "parkinson disease": {
+    "age_min": 45,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "gout": {
+    "age_min": 30,
+    "age_max": 85,
+    "age_peak": 55,
+    "male_pct": 80,
+    "source": "chatgpt"
+  },
+  "otitis media": {
+    "age_min": 0,
+    "age_max": 15,
+    "age_peak": 3,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "drug abuse (opioids)": {
+    "age_min": 18,
+    "age_max": 75,
+    "age_peak": 40,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "myelodysplastic syndrome": {
+    "age_min": 50,
+    "age_max": 95,
+    "age_peak": 70,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "acute kidney injury": {
+    "age_min": 18,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "threatened pregnancy": {
+    "age_min": 18,
+    "age_max": 45,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "intracranial abscess": {
+    "age_min": 5,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "gum disease": {
+    "age_min": 15,
+    "age_max": 90,
+    "age_peak": 45,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "gastrointestinal hemorrhage": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "seborrheic dermatitis": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 30,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "drug abuse (methamphetamine)": {
+    "age_min": 18,
+    "age_max": 60,
+    "age_peak": 35,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "torticollis": {
+    "age_min": 0,
+    "age_max": 60,
+    "age_peak": 20,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "poisoning due to antihypertensives": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 40,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "tension headache": {
+    "age_min": 10,
+    "age_max": 80,
+    "age_peak": 35,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "scurvy": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 40,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "narcolepsy": {
+    "age_min": 10,
+    "age_max": 50,
+    "age_peak": 25,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "food allergy": {
+    "age_min": 0,
+    "age_max": 60,
+    "age_peak": 10,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "labyrinthitis": {
+    "age_min": 20,
+    "age_max": 60,
+    "age_peak": 40,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "anxiety": {
+    "age_min": 10,
+    "age_max": 80,
+    "age_peak": 30,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "impulse control disorder": {
+    "age_min": 10,
+    "age_max": 50,
+    "age_peak": 25,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "stenosis of the tear duct": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 10,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "abscess of nose": {
+    "age_min": 5,
+    "age_max": 60,
+    "age_peak": 30,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "omphalitis": {
+    "age_min": 0,
+    "age_max": 1,
+    "age_peak": 0,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "leukemia": {
+    "age_min": 0,
+    "age_max": 85,
+    "age_peak": 50,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "bell palsy": {
+    "age_min": 15,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "conjunctivitis due to allergy": {
+    "age_min": 0,
+    "age_max": 60,
+    "age_peak": 15,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "drug reaction": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 40,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "adrenal cancer": {
+    "age_min": 30,
+    "age_max": 80,
+    "age_peak": 55,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "myopia": {
+    "age_min": 5,
+    "age_max": 50,
+    "age_peak": 20,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "osteoarthritis": {
+    "age_min": 40,
+    "age_max": 95,
+    "age_peak": 65,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "thyroid disease": {
+    "age_min": 10,
+    "age_max": 90,
+    "age_peak": 45,
+    "male_pct": 30,
+    "source": "chatgpt"
+  },
+  "pharyngitis": {
+    "age_min": 5,
+    "age_max": 60,
+    "age_peak": 20,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "chronic rheumatic fever": {
+    "age_min": 10,
+    "age_max": 40,
+    "age_peak": 20,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "hypocalcemia": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 40,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "macular degeneration": {
+    "age_min": 55,
+    "age_max": 95,
+    "age_peak": 75,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "pneumonia": {
+    "age_min": 0,
+    "age_max": 95,
+    "age_peak": 60,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "premature ventricular contractions (pvcs)": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 55,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "testicular cancer": {
+    "age_min": 15,
+    "age_max": 45,
+    "age_peak": 30,
+    "male_pct": 100,
+    "source": "chatgpt"
+  },
+  "hydrocephalus": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 5,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "breast cancer": {
+    "age_min": 30,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 1,
+    "source": "chatgpt"
+  },
+  "anemia due to malignancy": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "esophageal varices": {
+    "age_min": 30,
+    "age_max": 80,
+    "age_peak": 55,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "endometrial cancer": {
+    "age_min": 45,
+    "age_max": 85,
+    "age_peak": 65,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "cystic fibrosis": {
+    "age_min": 0,
+    "age_max": 40,
+    "age_peak": 10,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "intertrigo (skin condition)": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 50,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "parathyroid adenoma": {
+    "age_min": 40,
+    "age_max": 80,
+    "age_peak": 60,
+    "male_pct": 30,
+    "source": "chatgpt"
+  },
+  "glucocorticoid deficiency": {
+    "age_min": 0,
+    "age_max": 70,
+    "age_peak": 30,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "temporomandibular joint disorder": {
+    "age_min": 15,
+    "age_max": 60,
+    "age_peak": 35,
+    "male_pct": 30,
+    "source": "chatgpt"
+  },
+  "wilson disease": {
+    "age_min": 5,
+    "age_max": 40,
+    "age_peak": 20,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "vesicoureteral reflux": {
+    "age_min": 0,
+    "age_max": 20,
+    "age_peak": 5,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "vitamin a deficiency": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 20,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "gonorrhea": {
+    "age_min": 15,
+    "age_max": 40,
+    "age_peak": 25,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "ependymoma": {
+    "age_min": 0,
+    "age_max": 60,
+    "age_peak": 10,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "hepatitis due to a toxin": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 45,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "vaginal cyst": {
+    "age_min": 15,
+    "age_max": 50,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "ectopic pregnancy": {
+    "age_min": 18,
+    "age_max": 45,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "chronic knee pain": {
+    "age_min": 30,
+    "age_max": 85,
+    "age_peak": 55,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "pinguecula": {
+    "age_min": 30,
+    "age_max": 80,
+    "age_peak": 55,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "hypergammaglobulinemia": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "alcohol abuse": {
+    "age_min": 15,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 70,
+    "source": "chatgpt"
+  },
+  "carpal tunnel syndrome": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 45,
+    "male_pct": 30,
+    "source": "chatgpt"
+  },
+  "pituitary disorder": {
+    "age_min": 10,
+    "age_max": 80,
+    "age_peak": 45,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "kidney stone": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 45,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "autism": {
+    "age_min": 2,
+    "age_max": 30,
+    "age_peak": 8,
+    "male_pct": 75,
+    "source": "chatgpt"
+  },
+  "cat scratch disease": {
+    "age_min": 5,
+    "age_max": 40,
+    "age_peak": 15,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "chronic glaucoma": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "retinal detachment": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "aplastic anemia": {
+    "age_min": 5,
+    "age_max": 70,
+    "age_peak": 30,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "overflow incontinence": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "hemolytic anemia": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 30,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "lateral epicondylitis (tennis elbow)": {
+    "age_min": 30,
+    "age_max": 65,
+    "age_peak": 45,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "syphilis": {
+    "age_min": 15,
+    "age_max": 70,
+    "age_peak": 35,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "diabetic kidney disease": {
+    "age_min": 30,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "nose disorder": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 30,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "drug withdrawal": {
+    "age_min": 18,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "dental caries": {
+    "age_min": 2,
+    "age_max": 80,
+    "age_peak": 15,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "hypercholesterolemia": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 55,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "kidney failure": {
+    "age_min": 30,
+    "age_max": 95,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "muscle spasm": {
+    "age_min": 10,
+    "age_max": 80,
+    "age_peak": 40,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "hemophilia": {
+    "age_min": 0,
+    "age_max": 60,
+    "age_peak": 10,
+    "male_pct": 95,
+    "source": "chatgpt"
+  },
+  "hyperosmotic hyperketotic state": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "peritonsillar abscess": {
+    "age_min": 10,
+    "age_max": 40,
+    "age_peak": 25,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "gastroparesis": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "itching of unknown cause": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 50,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "polycythemia vera": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "thrombocytopenia": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 40,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "head and neck cancer": {
+    "age_min": 40,
+    "age_max": 85,
+    "age_peak": 60,
+    "male_pct": 70,
+    "source": "chatgpt"
+  },
+  "pseudohypoparathyroidism": {
+    "age_min": 0,
+    "age_max": 40,
+    "age_peak": 15,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "goiter": {
+    "age_min": 10,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 30,
+    "source": "chatgpt"
+  },
+  "urge incontinence": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 55,
+    "male_pct": 30,
+    "source": "chatgpt"
+  },
+  "edward syndrome": {
+    "age_min": 0,
+    "age_max": 1,
+    "age_peak": 0,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "muscular dystrophy": {
+    "age_min": 0,
+    "age_max": 40,
+    "age_peak": 10,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "mittelschmerz": {
+    "age_min": 12,
+    "age_max": 35,
+    "age_peak": 25,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "corneal abrasion": {
+    "age_min": 5,
+    "age_max": 70,
+    "age_peak": 30,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "anemia of chronic disease": {
+    "age_min": 30,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "dysthymic disorder": {
+    "age_min": 15,
+    "age_max": 80,
+    "age_peak": 40,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "scarlet fever": {
+    "age_min": 2,
+    "age_max": 15,
+    "age_peak": 6,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "hypertensive heart disease": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "drug abuse (barbiturates)": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "polycystic ovarian syndrome (pcos)": {
+    "age_min": 15,
+    "age_max": 45,
+    "age_peak": 25,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "encephalitis": {
+    "age_min": 5,
+    "age_max": 80,
+    "age_peak": 40,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "cyst of the eyelid": {
+    "age_min": 10,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "balanitis": {
+    "age_min": 10,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 100,
+    "source": "chatgpt"
+  },
+  "drug abuse (cocaine)": {
+    "age_min": 18,
+    "age_max": 60,
+    "age_peak": 35,
+    "male_pct": 70,
+    "source": "chatgpt"
+  },
+  "optic neuritis": {
+    "age_min": 15,
+    "age_max": 50,
+    "age_peak": 30,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "alcohol withdrawal": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 45,
+    "male_pct": 70,
+    "source": "chatgpt"
+  },
+  "premature atrial contractions (pacs)": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 55,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "hemiplegia": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "hammer toe": {
+    "age_min": 30,
+    "age_max": 80,
+    "age_peak": 60,
+    "male_pct": 35,
+    "source": "chatgpt"
+  },
+  "joint effusion": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "meningioma": {
+    "age_min": 30,
+    "age_max": 80,
+    "age_peak": 55,
+    "male_pct": 35,
+    "source": "chatgpt"
+  },
+  "brain cancer": {
+    "age_min": 10,
+    "age_max": 80,
+    "age_peak": 55,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "placental abruption": {
+    "age_min": 18,
+    "age_max": 45,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "seasonal allergies (hay fever)": {
+    "age_min": 0,
+    "age_max": 60,
+    "age_peak": 20,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "lung cancer": {
+    "age_min": 45,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "primary kidney disease": {
+    "age_min": 10,
+    "age_max": 90,
+    "age_peak": 55,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "uterine cancer": {
+    "age_min": 40,
+    "age_max": 85,
+    "age_peak": 60,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "dry eye of unknown cause": {
+    "age_min": 30,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 30,
+    "source": "chatgpt"
+  },
+  "fibrocystic breast disease": {
+    "age_min": 20,
+    "age_max": 55,
+    "age_peak": 40,
+    "male_pct": 5,
+    "source": "chatgpt"
+  },
+  "fungal infection of the hair": {
+    "age_min": 2,
+    "age_max": 15,
+    "age_peak": 7,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "tooth abscess": {
+    "age_min": 10,
+    "age_max": 80,
+    "age_peak": 40,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "vacterl syndrome": {
+    "age_min": 0,
+    "age_max": 5,
+    "age_peak": 0,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "vertebrobasilar insufficiency": {
+    "age_min": 50,
+    "age_max": 95,
+    "age_peak": 70,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "rectal disorder": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 45,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "atonic bladder": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "benign paroxysmal positional vertical (bppv)": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "blepharospasm": {
+    "age_min": 40,
+    "age_max": 80,
+    "age_peak": 60,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "sarcoidosis": {
+    "age_min": 20,
+    "age_max": 60,
+    "age_peak": 40,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "metastatic cancer": {
+    "age_min": 40,
+    "age_max": 95,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "trigger finger (finger disorder)": {
+    "age_min": 30,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "hemochromatosis": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "osteochondroma": {
+    "age_min": 5,
+    "age_max": 30,
+    "age_peak": 15,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "cushing syndrome": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 45,
+    "male_pct": 25,
+    "source": "chatgpt"
+  },
+  "typhoid fever": {
+    "age_min": 5,
+    "age_max": 50,
+    "age_peak": 20,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "vitreous degeneration": {
+    "age_min": 40,
+    "age_max": 95,
+    "age_peak": 65,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "atrophic skin condition": {
+    "age_min": 50,
+    "age_max": 95,
+    "age_peak": 75,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "aspergillosis": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 55,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "uterine atony": {
+    "age_min": 18,
+    "age_max": 45,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "trichinosis": {
+    "age_min": 5,
+    "age_max": 70,
+    "age_peak": 35,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "whooping cough": {
+    "age_min": 0,
+    "age_max": 15,
+    "age_peak": 2,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "subacute thyroiditis": {
+    "age_min": 20,
+    "age_max": 60,
+    "age_peak": 40,
+    "male_pct": 30,
+    "source": "chatgpt"
+  },
+  "oral mucosal lesion": {
+    "age_min": 10,
+    "age_max": 80,
+    "age_peak": 45,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "intracerebral hemorrhage": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "alzheimer disease": {
+    "age_min": 60,
+    "age_max": 95,
+    "age_peak": 75,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "vaginismus": {
+    "age_min": 18,
+    "age_max": 45,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "systemic lupus erythematosis (sle)": {
+    "age_min": 15,
+    "age_max": 55,
+    "age_peak": 30,
+    "male_pct": 10,
+    "source": "chatgpt"
+  },
+  "premature ovarian failure": {
+    "age_min": 15,
+    "age_max": 40,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "thoracic outlet syndrome": {
+    "age_min": 20,
+    "age_max": 60,
+    "age_peak": 40,
+    "male_pct": 35,
+    "source": "chatgpt"
+  },
+  "ganglion cyst": {
+    "age_min": 15,
+    "age_max": 50,
+    "age_peak": 30,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "crohn disease": {
+    "age_min": 10,
+    "age_max": 60,
+    "age_peak": 30,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "postoperative infection": {
+    "age_min": 0,
+    "age_max": 95,
+    "age_peak": 55,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "folate deficiency": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 55,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "fluid overload": {
+    "age_min": 30,
+    "age_max": 95,
+    "age_peak": 70,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "atrial flutter": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 70,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "skin disorder": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 40,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "floaters": {
+    "age_min": 30,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "tooth disorder": {
+    "age_min": 5,
+    "age_max": 80,
+    "age_peak": 35,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "heart attack": {
+    "age_min": 35,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 70,
+    "source": "chatgpt"
+  },
+  "oral thrush (yeast infection)": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 40,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "pityriasis rosea": {
+    "age_min": 10,
+    "age_max": 35,
+    "age_peak": 20,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "allergy to animals": {
+    "age_min": 0,
+    "age_max": 60,
+    "age_peak": 15,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "orthostatic hypotension": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "obstructive sleep apnea (osa)": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 70,
+    "source": "chatgpt"
+  },
+  "hypokalemia": {
+    "age_min": 10,
+    "age_max": 90,
+    "age_peak": 55,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "psoriasis": {
+    "age_min": 10,
+    "age_max": 80,
+    "age_peak": 30,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "intussusception": {
+    "age_min": 0,
+    "age_max": 5,
+    "age_peak": 1,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "cervicitis": {
+    "age_min": 15,
+    "age_max": 50,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "abscess of the pharynx": {
+    "age_min": 2,
+    "age_max": 40,
+    "age_peak": 15,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "primary thrombocythemia": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "arthritis of the hip": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "decubitus ulcer": {
+    "age_min": 40,
+    "age_max": 95,
+    "age_peak": 75,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "hypernatremia": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "sensorineural hearing loss": {
+    "age_min": 30,
+    "age_max": 100,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "chronic ulcer": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "osteoporosis": {
+    "age_min": 40,
+    "age_max": 95,
+    "age_peak": 70,
+    "male_pct": 25,
+    "source": "chatgpt"
+  },
+  "ileus": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "sickle cell crisis": {
+    "age_min": 0,
+    "age_max": 50,
+    "age_peak": 15,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "urethritis": {
+    "age_min": 15,
+    "age_max": 45,
+    "age_peak": 30,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "prostatitis": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 100,
+    "source": "chatgpt"
+  },
+  "otitis externa (swimmer's ear)": {
+    "age_min": 5,
+    "age_max": 70,
+    "age_peak": 30,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "poisoning due to anticonvulsants": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 35,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "testicular torsion": {
+    "age_min": 10,
+    "age_max": 25,
+    "age_peak": 16,
+    "male_pct": 100,
+    "source": "chatgpt"
+  },
+  "tricuspid valve disease": {
+    "age_min": 30,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "urethral stricture": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 45,
+    "male_pct": 70,
+    "source": "chatgpt"
+  },
+  "vitamin d deficiency": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 50,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "hydatidiform mole": {
+    "age_min": 15,
+    "age_max": 45,
+    "age_peak": 25,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "pain disorder affecting the neck": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 45,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "tuberculosis": {
+    "age_min": 5,
+    "age_max": 80,
+    "age_peak": 35,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "pelvic fistula": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 30,
+    "source": "chatgpt"
+  },
+  "acute bronchiolitis": {
+    "age_min": 0,
+    "age_max": 2,
+    "age_peak": 1,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "presbyopia": {
+    "age_min": 40,
+    "age_max": 100,
+    "age_peak": 55,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "dementia": {
+    "age_min": 60,
+    "age_max": 100,
+    "age_peak": 80,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "paroxysmal ventricular tachycardia": {
+    "age_min": 30,
+    "age_max": 85,
+    "age_peak": 60,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "congenital heart defect": {
+    "age_min": 0,
+    "age_max": 10,
+    "age_peak": 1,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "connective tissue disorder": {
+    "age_min": 10,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 30,
+    "source": "chatgpt"
+  },
+  "poisoning due to gas": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 40,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "pyogenic skin infection": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 30,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "endometrial hyperplasia": {
+    "age_min": 35,
+    "age_max": 65,
+    "age_peak": 50,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "acanthosis nigricans": {
+    "age_min": 10,
+    "age_max": 60,
+    "age_peak": 30,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "central atherosclerosis": {
+    "age_min": 50,
+    "age_max": 90,
+    "age_peak": 70,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "viral exanthem": {
+    "age_min": 0,
+    "age_max": 20,
+    "age_peak": 5,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "noninfectious gastroenteritis": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 30,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "benign prostatic hyperplasia (bph)": {
+    "age_min": 45,
+    "age_max": 90,
+    "age_peak": 70,
+    "male_pct": 100,
+    "source": "chatgpt"
+  },
+  "primary immunodeficiency": {
+    "age_min": 0,
+    "age_max": 40,
+    "age_peak": 5,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "ovarian cancer": {
+    "age_min": 40,
+    "age_max": 85,
+    "age_peak": 60,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "cataract": {
+    "age_min": 50,
+    "age_max": 95,
+    "age_peak": 70,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "spinal stenosis": {
+    "age_min": 40,
+    "age_max": 95,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "intestinal obstruction": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "congenital malformation syndrome": {
+    "age_min": 0,
+    "age_max": 5,
+    "age_peak": 0,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "sporotrichosis": {
+    "age_min": 10,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "lymphangitis": {
+    "age_min": 10,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "wernicke korsakoff syndrome": {
+    "age_min": 30,
+    "age_max": 80,
+    "age_peak": 55,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "intestinal disease": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 45,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "acute bronchitis": {
+    "age_min": 1,
+    "age_max": 80,
+    "age_peak": 35,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "persistent vomiting of unknown cause": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 35,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "myocarditis": {
+    "age_min": 10,
+    "age_max": 70,
+    "age_peak": 35,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "preeclampsia": {
+    "age_min": 18,
+    "age_max": 45,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "ischemic heart disease": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 70,
+    "source": "chatgpt"
+  },
+  "neurofibromatosis": {
+    "age_min": 0,
+    "age_max": 50,
+    "age_peak": 20,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "chickenpox": {
+    "age_min": 1,
+    "age_max": 30,
+    "age_peak": 6,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "pancreatic cancer": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "neuropathy due to drugs": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 55,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "croup": {
+    "age_min": 0,
+    "age_max": 6,
+    "age_peak": 2,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "idiopathic excessive menstruation": {
+    "age_min": 12,
+    "age_max": 50,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "amblyopia": {
+    "age_min": 0,
+    "age_max": 8,
+    "age_peak": 4,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "meckel diverticulum": {
+    "age_min": 0,
+    "age_max": 30,
+    "age_peak": 5,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "ear drum damage": {
+    "age_min": 5,
+    "age_max": 70,
+    "age_peak": 30,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "erectile dysfunction": {
+    "age_min": 30,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 100,
+    "source": "chatgpt"
+  },
+  "temporary or benign blood in urine": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 45,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "kidney disease due to longstanding hypertension": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "chondromalacia of the patella": {
+    "age_min": 15,
+    "age_max": 40,
+    "age_peak": 25,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "onychomycosis": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 55,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "urethral disorder": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 45,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "lyme disease": {
+    "age_min": 5,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "iron deficiency anemia": {
+    "age_min": 5,
+    "age_max": 85,
+    "age_peak": 30,
+    "male_pct": 30,
+    "source": "chatgpt"
+  },
+  "acute respiratory distress syndrome (ards)": {
+    "age_min": 18,
+    "age_max": 85,
+    "age_peak": 60,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "toxic multinodular goiter": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 25,
+    "source": "chatgpt"
+  },
+  "autonomic nervous system disorder": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "psychosexual disorder": {
+    "age_min": 18,
+    "age_max": 60,
+    "age_peak": 35,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "anemia": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 40,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "tendinitis": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 45,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "amyotrophic lateral sclerosis (als)": {
+    "age_min": 40,
+    "age_max": 80,
+    "age_peak": 60,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "central retinal artery or vein occlusion": {
+    "age_min": 50,
+    "age_max": 90,
+    "age_peak": 70,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "paroxysmal supraventricular tachycardia": {
+    "age_min": 10,
+    "age_max": 70,
+    "age_peak": 35,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "venous insufficiency": {
+    "age_min": 40,
+    "age_max": 95,
+    "age_peak": 65,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "trichomonas infection": {
+    "age_min": 15,
+    "age_max": 60,
+    "age_peak": 30,
+    "male_pct": 30,
+    "source": "chatgpt"
+  },
+  "depression": {
+    "age_min": 10,
+    "age_max": 85,
+    "age_peak": 35,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "drug abuse": {
+    "age_min": 15,
+    "age_max": 70,
+    "age_peak": 35,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "urinary tract obstruction": {
+    "age_min": 30,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "diabetes insipidus": {
+    "age_min": 5,
+    "age_max": 70,
+    "age_peak": 30,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "iridocyclitis": {
+    "age_min": 15,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "varicocele of the testicles": {
+    "age_min": 15,
+    "age_max": 50,
+    "age_peak": 30,
+    "male_pct": 100,
+    "source": "chatgpt"
+  },
+  "irritable bowel syndrome": {
+    "age_min": 15,
+    "age_max": 60,
+    "age_peak": 35,
+    "male_pct": 35,
+    "source": "chatgpt"
+  },
+  "ovarian cyst": {
+    "age_min": 15,
+    "age_max": 50,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "chlamydia": {
+    "age_min": 15,
+    "age_max": 35,
+    "age_peak": 22,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "parasitic disease": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 25,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "lipoma": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "female genitalia infection": {
+    "age_min": 10,
+    "age_max": 60,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "pulmonary hypertension": {
+    "age_min": 30,
+    "age_max": 85,
+    "age_peak": 60,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "thyroid nodule": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 25,
+    "source": "chatgpt"
+  },
+  "dumping syndrome": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 45,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "lymphadenitis": {
+    "age_min": 5,
+    "age_max": 60,
+    "age_peak": 25,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "aortic valve disease": {
+    "age_min": 50,
+    "age_max": 90,
+    "age_peak": 70,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "rheumatoid arthritis": {
+    "age_min": 30,
+    "age_max": 75,
+    "age_peak": 50,
+    "male_pct": 25,
+    "source": "chatgpt"
+  },
+  "spermatocele": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 45,
+    "male_pct": 100,
+    "source": "chatgpt"
+  },
+  "impetigo": {
+    "age_min": 1,
+    "age_max": 15,
+    "age_peak": 6,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "anal fistula": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "hypothermia": {
+    "age_min": 0,
+    "age_max": 95,
+    "age_peak": 70,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "oppositional disorder": {
+    "age_min": 5,
+    "age_max": 18,
+    "age_peak": 12,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "migraine": {
+    "age_min": 5,
+    "age_max": 60,
+    "age_peak": 30,
+    "male_pct": 30,
+    "source": "chatgpt"
+  },
+  "diabetic peripheral neuropathy": {
+    "age_min": 30,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "testicular disorder": {
+    "age_min": 10,
+    "age_max": 70,
+    "age_peak": 35,
+    "male_pct": 100,
+    "source": "chatgpt"
+  },
+  "gestational diabetes": {
+    "age_min": 18,
+    "age_max": 45,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "hidradenitis suppurativa": {
+    "age_min": 15,
+    "age_max": 50,
+    "age_peak": 30,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "valley fever": {
+    "age_min": 10,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "conjunctivitis due to bacteria": {
+    "age_min": 0,
+    "age_max": 60,
+    "age_peak": 10,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "lewy body dementia": {
+    "age_min": 60,
+    "age_max": 95,
+    "age_peak": 75,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "multiple myeloma": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "ascending cholangitis": {
+    "age_min": 40,
+    "age_max": 80,
+    "age_peak": 65,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "idiopathic irregular menstrual cycle": {
+    "age_min": 12,
+    "age_max": 45,
+    "age_peak": 25,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "interstitial lung disease": {
+    "age_min": 30,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "mononeuritis": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "malaria": {
+    "age_min": 1,
+    "age_max": 70,
+    "age_peak": 25,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "somatization disorder": {
+    "age_min": 15,
+    "age_max": 60,
+    "age_peak": 35,
+    "male_pct": 30,
+    "source": "chatgpt"
+  },
+  "hypovolemia": {
+    "age_min": 0,
+    "age_max": 95,
+    "age_peak": 50,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "schizophrenia": {
+    "age_min": 15,
+    "age_max": 50,
+    "age_peak": 22,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "knee ligament or meniscus tear": {
+    "age_min": 10,
+    "age_max": 60,
+    "age_peak": 30,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "endocarditis": {
+    "age_min": 20,
+    "age_max": 85,
+    "age_peak": 55,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "sepsis": {
+    "age_min": 0,
+    "age_max": 95,
+    "age_peak": 70,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "cholecystitis": {
+    "age_min": 25,
+    "age_max": 85,
+    "age_peak": 50,
+    "male_pct": 35,
+    "source": "chatgpt"
+  },
+  "cardiac arrest": {
+    "age_min": 18,
+    "age_max": 95,
+    "age_peak": 70,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "cardiomyopathy": {
+    "age_min": 15,
+    "age_max": 85,
+    "age_peak": 55,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "social phobia": {
+    "age_min": 10,
+    "age_max": 50,
+    "age_peak": 25,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "meningitis": {
+    "age_min": 0,
+    "age_max": 75,
+    "age_peak": 20,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "spherocytosis": {
+    "age_min": 0,
+    "age_max": 40,
+    "age_peak": 10,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "hormone disorder": {
+    "age_min": 10,
+    "age_max": 80,
+    "age_peak": 40,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "raynaud disease": {
+    "age_min": 15,
+    "age_max": 60,
+    "age_peak": 30,
+    "male_pct": 20,
+    "source": "chatgpt"
+  },
+  "reactive arthritis": {
+    "age_min": 20,
+    "age_max": 50,
+    "age_peak": 30,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "scabies": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 20,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "ear wax impaction": {
+    "age_min": 5,
+    "age_max": 90,
+    "age_peak": 50,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "hypertension of pregnancy": {
+    "age_min": 18,
+    "age_max": 45,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "peripheral arterial embolism": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "rosacea": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 45,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "uveitis": {
+    "age_min": 15,
+    "age_max": 60,
+    "age_peak": 40,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "tracheitis": {
+    "age_min": 0,
+    "age_max": 20,
+    "age_peak": 5,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "jaw disorder": {
+    "age_min": 15,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "perirectal infection": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "breast cyst": {
+    "age_min": 20,
+    "age_max": 60,
+    "age_peak": 40,
+    "male_pct": 5,
+    "source": "chatgpt"
+  },
+  "post-traumatic stress disorder (ptsd)": {
+    "age_min": 15,
+    "age_max": 70,
+    "age_peak": 35,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "kidney cancer": {
+    "age_min": 40,
+    "age_max": 85,
+    "age_peak": 65,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "vulvar cancer": {
+    "age_min": 40,
+    "age_max": 85,
+    "age_peak": 65,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "blepharitis": {
+    "age_min": 10,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "celiac disease": {
+    "age_min": 1,
+    "age_max": 70,
+    "age_peak": 30,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "cystitis": {
+    "age_min": 5,
+    "age_max": 85,
+    "age_peak": 35,
+    "male_pct": 20,
+    "source": "chatgpt"
+  },
+  "sickle cell anemia": {
+    "age_min": 0,
+    "age_max": 50,
+    "age_peak": 10,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "subconjunctival hemorrhage": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 55,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "hemorrhoids": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 45,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "contact dermatitis": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 30,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "sinus bradycardia": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 55,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "high blood pressure": {
+    "age_min": 25,
+    "age_max": 90,
+    "age_peak": 55,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "pelvic inflammatory disease": {
+    "age_min": 15,
+    "age_max": 45,
+    "age_peak": 25,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "liver disease": {
+    "age_min": 30,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "chronic constipation": {
+    "age_min": 5,
+    "age_max": 90,
+    "age_peak": 50,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "thyroid cancer": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 30,
+    "source": "chatgpt"
+  },
+  "flu": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 25,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "friedrich ataxia": {
+    "age_min": 5,
+    "age_max": 30,
+    "age_peak": 15,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "tic (movement) disorder": {
+    "age_min": 5,
+    "age_max": 25,
+    "age_peak": 10,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "brachial neuritis": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 45,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "cervical cancer": {
+    "age_min": 25,
+    "age_max": 70,
+    "age_peak": 45,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "adrenal adenoma": {
+    "age_min": 30,
+    "age_max": 80,
+    "age_peak": 55,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "esophagitis": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "gas gangrene": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 55,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "yeast infection": {
+    "age_min": 10,
+    "age_max": 70,
+    "age_peak": 30,
+    "male_pct": 20,
+    "source": "chatgpt"
+  },
+  "spina bifida": {
+    "age_min": 0,
+    "age_max": 10,
+    "age_peak": 0,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "drug poisoning due to medication": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 30,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "alcoholic liver disease": {
+    "age_min": 30,
+    "age_max": 70,
+    "age_peak": 50,
+    "male_pct": 70,
+    "source": "chatgpt"
+  },
+  "malignant hypertension": {
+    "age_min": 30,
+    "age_max": 80,
+    "age_peak": 55,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "diverticulitis": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "moyamoya disease": {
+    "age_min": 0,
+    "age_max": 40,
+    "age_peak": 10,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "psychotic disorder": {
+    "age_min": 15,
+    "age_max": 70,
+    "age_peak": 30,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "atrophy of the corpus cavernosum": {
+    "age_min": 40,
+    "age_max": 80,
+    "age_peak": 65,
+    "male_pct": 100,
+    "source": "chatgpt"
+  },
+  "smoking or tobacco addiction": {
+    "age_min": 15,
+    "age_max": 80,
+    "age_peak": 40,
+    "male_pct": 70,
+    "source": "chatgpt"
+  },
+  "sprain or strain": {
+    "age_min": 5,
+    "age_max": 80,
+    "age_peak": 25,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "essential tremor": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "idiopathic painful menstruation": {
+    "age_min": 12,
+    "age_max": 35,
+    "age_peak": 20,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "down syndrome": {
+    "age_min": 0,
+    "age_max": 50,
+    "age_peak": 0,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "idiopathic infrequent menstruation": {
+    "age_min": 12,
+    "age_max": 45,
+    "age_peak": 28,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "pneumothorax": {
+    "age_min": 15,
+    "age_max": 60,
+    "age_peak": 30,
+    "male_pct": 70,
+    "source": "chatgpt"
+  },
+  "de quervain disease": {
+    "age_min": 20,
+    "age_max": 60,
+    "age_peak": 40,
+    "male_pct": 30,
+    "source": "chatgpt"
+  },
+  "human immunodeficiency virus infection (hiv)": {
+    "age_min": 15,
+    "age_max": 70,
+    "age_peak": 35,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "mumps": {
+    "age_min": 2,
+    "age_max": 40,
+    "age_peak": 10,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "subarachnoid hemorrhage": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 55,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "acute fatty liver of pregnancy (aflp)": {
+    "age_min": 18,
+    "age_max": 45,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "ectropion": {
+    "age_min": 60,
+    "age_max": 95,
+    "age_peak": 75,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "scar": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 30,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "lactose intolerance": {
+    "age_min": 5,
+    "age_max": 80,
+    "age_peak": 25,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "eustachian tube dysfunction (ear disorder)": {
+    "age_min": 2,
+    "age_max": 60,
+    "age_peak": 20,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "appendicitis": {
+    "age_min": 5,
+    "age_max": 50,
+    "age_peak": 20,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "graves disease": {
+    "age_min": 20,
+    "age_max": 60,
+    "age_peak": 40,
+    "male_pct": 25,
+    "source": "chatgpt"
+  },
+  "dissociative disorder": {
+    "age_min": 15,
+    "age_max": 50,
+    "age_peak": 30,
+    "male_pct": 30,
+    "source": "chatgpt"
+  },
+  "phimosis": {
+    "age_min": 0,
+    "age_max": 70,
+    "age_peak": 10,
+    "male_pct": 100,
+    "source": "chatgpt"
+  },
+  "hyperemesis gravidarum": {
+    "age_min": 18,
+    "age_max": 40,
+    "age_peak": 25,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "thalassemia": {
+    "age_min": 0,
+    "age_max": 50,
+    "age_peak": 10,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "placenta previa": {
+    "age_min": 18,
+    "age_max": 45,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "epidural hemorrhage": {
+    "age_min": 5,
+    "age_max": 80,
+    "age_peak": 40,
+    "male_pct": 70,
+    "source": "chatgpt"
+  },
+  "septic arthritis": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 50,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "pleural effusion": {
+    "age_min": 20,
+    "age_max": 95,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "aphakia": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 70,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "vulvar disorder": {
+    "age_min": 15,
+    "age_max": 80,
+    "age_peak": 40,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "sialoadenitis": {
+    "age_min": 10,
+    "age_max": 80,
+    "age_peak": 45,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "gynecomastia": {
+    "age_min": 10,
+    "age_max": 70,
+    "age_peak": 25,
+    "male_pct": 100,
+    "source": "chatgpt"
+  },
+  "urinary tract infection": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 35,
+    "male_pct": 20,
+    "source": "chatgpt"
+  },
+  "histoplasmosis": {
+    "age_min": 10,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "erythema multiforme": {
+    "age_min": 10,
+    "age_max": 50,
+    "age_peak": 30,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "scoliosis": {
+    "age_min": 5,
+    "age_max": 40,
+    "age_peak": 15,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "arrhythmia": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "trigeminal neuralgia": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "ankylosing spondylitis": {
+    "age_min": 15,
+    "age_max": 50,
+    "age_peak": 30,
+    "male_pct": 70,
+    "source": "chatgpt"
+  },
+  "peripheral nerve disorder": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "poisoning due to antipsychotics": {
+    "age_min": 10,
+    "age_max": 90,
+    "age_peak": 40,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "neurosis": {
+    "age_min": 15,
+    "age_max": 70,
+    "age_peak": 35,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "prostate cancer": {
+    "age_min": 50,
+    "age_max": 95,
+    "age_peak": 70,
+    "male_pct": 100,
+    "source": "chatgpt"
+  },
+  "cerebral edema": {
+    "age_min": 10,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "birth trauma": {
+    "age_min": 0,
+    "age_max": 0,
+    "age_peak": 0,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "chronic pancreatitis": {
+    "age_min": 30,
+    "age_max": 70,
+    "age_peak": 50,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "hematoma": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 40,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "carcinoid syndrome": {
+    "age_min": 40,
+    "age_max": 80,
+    "age_peak": 60,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "seborrheic keratosis": {
+    "age_min": 40,
+    "age_max": 100,
+    "age_peak": 65,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "genital herpes": {
+    "age_min": 15,
+    "age_max": 60,
+    "age_peak": 30,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "adjustment reaction": {
+    "age_min": 10,
+    "age_max": 70,
+    "age_peak": 30,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "gallstone": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "multiple sclerosis": {
+    "age_min": 20,
+    "age_max": 50,
+    "age_peak": 32,
+    "male_pct": 25,
+    "source": "chatgpt"
+  },
+  "zenker diverticulum": {
+    "age_min": 50,
+    "age_max": 95,
+    "age_peak": 70,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "pneumoconiosis": {
+    "age_min": 30,
+    "age_max": 85,
+    "age_peak": 60,
+    "male_pct": 80,
+    "source": "chatgpt"
+  },
+  "hyperlipidemia": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 55,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "ulcerative colitis": {
+    "age_min": 10,
+    "age_max": 60,
+    "age_peak": 30,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "male genitalia infection": {
+    "age_min": 10,
+    "age_max": 70,
+    "age_peak": 35,
+    "male_pct": 100,
+    "source": "chatgpt"
+  },
+  "hpv": {
+    "age_min": 15,
+    "age_max": 45,
+    "age_peak": 25,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "angina": {
+    "age_min": 40,
+    "age_max": 85,
+    "age_peak": 65,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "nasal polyp": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 45,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "lichen simplex": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "trichiasis": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 55,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "acariasis": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 15,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "colorectal cancer": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "skin pigmentation disorder": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 30,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "factitious disorder": {
+    "age_min": 15,
+    "age_max": 60,
+    "age_peak": 35,
+    "male_pct": 30,
+    "source": "chatgpt"
+  },
+  "lymphogranuloma venereum": {
+    "age_min": 15,
+    "age_max": 45,
+    "age_peak": 30,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "galactorrhea of unknown cause": {
+    "age_min": 15,
+    "age_max": 45,
+    "age_peak": 30,
+    "male_pct": 5,
+    "source": "chatgpt"
+  },
+  "g6pd enzyme deficiency": {
+    "age_min": 0,
+    "age_max": 60,
+    "age_peak": 5,
+    "male_pct": 90,
+    "source": "chatgpt"
+  },
+  "nerve impingement near the shoulder": {
+    "age_min": 30,
+    "age_max": 70,
+    "age_peak": 50,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "toxoplasmosis": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 30,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "fibroadenoma": {
+    "age_min": 15,
+    "age_max": 40,
+    "age_peak": 25,
+    "male_pct": 5,
+    "source": "chatgpt"
+  },
+  "diabetic ketoacidosis": {
+    "age_min": 5,
+    "age_max": 60,
+    "age_peak": 25,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "granuloma inguinale": {
+    "age_min": 20,
+    "age_max": 50,
+    "age_peak": 35,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "obsessive compulsive disorder (ocd)": {
+    "age_min": 10,
+    "age_max": 60,
+    "age_peak": 25,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "hyponatremia": {
+    "age_min": 0,
+    "age_max": 95,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "stricture of the esophagus": {
+    "age_min": 30,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "soft tissue sarcoma": {
+    "age_min": 10,
+    "age_max": 85,
+    "age_peak": 55,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "bone disorder": {
+    "age_min": 20,
+    "age_max": 90,
+    "age_peak": 60,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "epilepsy": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 15,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "personality disorder": {
+    "age_min": 15,
+    "age_max": 60,
+    "age_peak": 30,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "shingles (herpes zoster)": {
+    "age_min": 20,
+    "age_max": 95,
+    "age_peak": 60,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "tourette syndrome": {
+    "age_min": 5,
+    "age_max": 30,
+    "age_peak": 12,
+    "male_pct": 75,
+    "source": "chatgpt"
+  },
+  "avascular necrosis": {
+    "age_min": 20,
+    "age_max": 60,
+    "age_peak": 40,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "strep throat": {
+    "age_min": 3,
+    "age_max": 40,
+    "age_peak": 10,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "spinocerebellar ataxia": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 45,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "osteomyelitis": {
+    "age_min": 5,
+    "age_max": 80,
+    "age_peak": 40,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "sjogren syndrome": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 45,
+    "male_pct": 15,
+    "source": "chatgpt"
+  },
+  "adhesive capsulitis of the shoulder": {
+    "age_min": 40,
+    "age_max": 70,
+    "age_peak": 55,
+    "male_pct": 40,
+    "source": "chatgpt"
+  },
+  "viral hepatitis": {
+    "age_min": 10,
+    "age_max": 80,
+    "age_peak": 35,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "tonsillar hypertrophy": {
+    "age_min": 2,
+    "age_max": 20,
+    "age_peak": 8,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "gastritis": {
+    "age_min": 15,
+    "age_max": 90,
+    "age_peak": 50,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "skin cancer": {
+    "age_min": 30,
+    "age_max": 95,
+    "age_peak": 70,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "rheumatic fever": {
+    "age_min": 5,
+    "age_max": 30,
+    "age_peak": 15,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "aphthous ulcer": {
+    "age_min": 5,
+    "age_max": 60,
+    "age_peak": 25,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "tonsillitis": {
+    "age_min": 2,
+    "age_max": 25,
+    "age_peak": 8,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "intestinal cancer": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "rocky mountain spotted fever": {
+    "age_min": 5,
+    "age_max": 70,
+    "age_peak": 35,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "stomach cancer": {
+    "age_min": 50,
+    "age_max": 85,
+    "age_peak": 70,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "developmental disability": {
+    "age_min": 0,
+    "age_max": 18,
+    "age_peak": 5,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "acute stress reaction": {
+    "age_min": 5,
+    "age_max": 80,
+    "age_peak": 30,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "delirium": {
+    "age_min": 50,
+    "age_max": 95,
+    "age_peak": 80,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "guillain barre syndrome": {
+    "age_min": 10,
+    "age_max": 80,
+    "age_peak": 45,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "lumbago": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 45,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "deviated nasal septum": {
+    "age_min": 10,
+    "age_max": 60,
+    "age_peak": 25,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "hemangioma": {
+    "age_min": 0,
+    "age_max": 60,
+    "age_peak": 5,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "peripheral arterial disease": {
+    "age_min": 50,
+    "age_max": 95,
+    "age_peak": 70,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "chronic back pain": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 45,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "heart failure": {
+    "age_min": 40,
+    "age_max": 95,
+    "age_peak": 75,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "conjunctivitis": {
+    "age_min": 0,
+    "age_max": 80,
+    "age_peak": 20,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "herniated disk": {
+    "age_min": 25,
+    "age_max": 60,
+    "age_peak": 40,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "rhabdomyolysis": {
+    "age_min": 10,
+    "age_max": 70,
+    "age_peak": 40,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "breast infection (mastitis)": {
+    "age_min": 18,
+    "age_max": 45,
+    "age_peak": 30,
+    "male_pct": 5,
+    "source": "chatgpt"
+  },
+  "abdominal aortic aneurysm": {
+    "age_min": 50,
+    "age_max": 85,
+    "age_peak": 70,
+    "male_pct": 75,
+    "source": "chatgpt"
+  },
+  "pulmonary embolism": {
+    "age_min": 25,
+    "age_max": 95,
+    "age_peak": 68,
+    "male_pct": 48,
+    "source": "chatgpt"
+  },
+  "conduct disorder": {
+    "age_min": 5,
+    "age_max": 18,
+    "age_peak": 12,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "epididymitis": {
+    "age_min": 10,
+    "age_max": 60,
+    "age_peak": 30,
+    "male_pct": 100,
+    "source": "chatgpt"
+  },
+  "premature rupture of amniotic membrane": {
+    "age_min": 18,
+    "age_max": 45,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "molluscum contagiosum": {
+    "age_min": 2,
+    "age_max": 40,
+    "age_peak": 10,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "necrotizing fasciitis": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "benign vaginal discharge (leukorrhea)": {
+    "age_min": 10,
+    "age_max": 50,
+    "age_peak": 30,
+    "male_pct": 0,
+    "source": "chatgpt"
+  },
+  "bladder obstruction": {
+    "age_min": 40,
+    "age_max": 90,
+    "age_peak": 65,
+    "male_pct": 65,
+    "source": "chatgpt"
+  },
+  "melanoma": {
+    "age_min": 25,
+    "age_max": 85,
+    "age_peak": 55,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "cervical disorder": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 45,
+    "male_pct": 30,
+    "source": "chatgpt"
+  },
+  "laryngitis": {
+    "age_min": 5,
+    "age_max": 80,
+    "age_peak": 35,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "dyshidrosis": {
+    "age_min": 10,
+    "age_max": 60,
+    "age_peak": 30,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "poisoning due to opioids": {
+    "age_min": 15,
+    "age_max": 80,
+    "age_peak": 35,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "lichen planus": {
+    "age_min": 30,
+    "age_max": 70,
+    "age_peak": 50,
+    "male_pct": 45,
+    "source": "chatgpt"
+  },
+  "gastroduodenal ulcer": {
+    "age_min": 20,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 60,
+    "source": "chatgpt"
+  },
+  "inguinal hernia": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 50,
+    "male_pct": 80,
+    "source": "chatgpt"
+  },
+  "eczema": {
+    "age_min": 0,
+    "age_max": 70,
+    "age_peak": 15,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "asperger syndrome": {
+    "age_min": 3,
+    "age_max": 40,
+    "age_peak": 15,
+    "male_pct": 80,
+    "source": "chatgpt"
+  },
+  "mucositis": {
+    "age_min": 10,
+    "age_max": 80,
+    "age_peak": 50,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "paronychia": {
+    "age_min": 5,
+    "age_max": 80,
+    "age_peak": 35,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "white blood cell disease": {
+    "age_min": 0,
+    "age_max": 90,
+    "age_peak": 50,
+    "male_pct": 55,
+    "source": "chatgpt"
+  },
+  "kaposi sarcoma": {
+    "age_min": 20,
+    "age_max": 70,
+    "age_peak": 45,
+    "male_pct": 75,
+    "source": "chatgpt"
+  },
+  "spondylolisthesis": {
+    "age_min": 10,
+    "age_max": 80,
+    "age_peak": 40,
+    "male_pct": 50,
+    "source": "chatgpt"
+  },
+  "pseudotumor cerebri": {
+    "age_min": 15,
+    "age_max": 45,
+    "age_peak": 30,
+    "male_pct": 20,
+    "source": "chatgpt"
+  },
+  "conjunctivitis due to virus": {
+    "age_min": 0,
+    "age_max": 60,
+    "age_peak": 10,
+    "male_pct": 50,
+    "source": "chatgpt"
+  }
+}

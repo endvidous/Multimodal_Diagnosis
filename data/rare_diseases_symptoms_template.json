@@ -1,0 +1,2057 @@
+{
+  "rocky mountain spotted fever": {
+    "current_samples": 1,
+    "mayo_clinic_symptoms": [
+      "high fever",
+      "headache",
+      "lack of apetite",
+      "muscle pain",
+      "soreness",
+      "rash",
+      "nausea and vomitting",
+      "stomach pain",
+      "sensitivity to light",
+      "confusion",
+      "anxiety",
+      "shortness of breath",
+      "seizures",
+      "numbness"
+    ],
+    "notes": "cleavland Clinic "
+  },
+  "myocarditis": {
+    "current_samples": 1,
+    "mayo_clinic_symptoms": [
+      "chest pain",
+      "fatigue",
+      "swelling of legs",
+      "swelling of ankles",
+      "swelling of feet",
+      "irregular heartbeats",
+      "shortness of breath",
+      "lightheadedness",
+      "dizzy",
+      "flu",
+      "cold"
+    ],
+    "notes": "mayo clinic org"
+  },
+  "kaposi sarcoma": {
+    "current_samples": 1,
+    "mayo_clinic_symptoms": [
+      "abnormal spots on skin",
+      "stomach pain",
+      "blood in feces",
+      "constipation",
+      "diarrhea",
+      "vomitting",
+      "coughing up blood",
+      "difficulty breathing",
+      "lymphedema",
+      "mouth pain"
+    ],
+    "notes": "cleavland Clinic"
+  },
+  "huntington disease": {
+    "current_samples": 1,
+    "mayo_clinic_symptoms": [
+      "involuntary jerking",
+      "writhing movements",
+      "muscle rigidity",
+      "muscle contracture",
+      "trouble walking",
+      "trouble keeping posture",
+      "trouble with speech",
+      "lack of flexibility",
+      "lack of awareness",
+      "\"notes\": \"cleavland clinic"
+    ],
+    "notes": "mayo clinic"
+  },
+  "turner syndrome": {
+    "current_samples": 1,
+    "mayo_clinic_symptoms": [
+      "heart problems",
+      "kidney problems",
+      "urinary problems",
+      "fluid collecting around the back of the neck",
+      "ear differences",
+      "low hairline at the back of the neck",
+      "receding lower jaw",
+      "low-set ears",
+      "elongated ears",
+      "cup-shaped ears",
+      "thick ear-lobes",
+      "wide nect",
+      "webbed nect",
+      "arms that point out slightly at the elbows",
+      "missing knuckle",
+      "toe shorter than the rest",
+      "flat feet",
+      "narrow finger nails",
+      "narrow toe nails",
+      "delayed puberty",
+      "low levels of sex hormones",
+      "smaller than average ovaries",
+      "uncapable of being pregnant"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "chronic ulcer": {
+    "current_samples": 1,
+    "mayo_clinic_symptoms": [
+      "acid reflux",
+      "neusea",
+      "vomiting",
+      "heartburn",
+      "bloating",
+      "belching",
+      "gas pain",
+      "vomiting blood",
+      "anemia",
+      "sudden abdominal pain"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "high blood pressure": {
+    "current_samples": 1,
+    "mayo_clinic_symptoms": [
+      "headaches",
+      "shortness of breath",
+      "nosebleeds"
+    ],
+    "notes": "mayo clinic"
+  },
+  "diabetes": {
+    "current_samples": 1,
+    "mayo_clinic_symptoms": [
+      "thirsty",
+      "urinating often",
+      "losing weight",
+      "ketones in urine",
+      "feeling tired",
+      "feeling weak",
+      "feeling irritable",
+      "blurry vision",
+      "slow-healing sores",
+      "infections"
+    ],
+    "notes": "mayo clinic"
+  },
+  "gas gangrene": {
+    "current_samples": 1,
+    "mayo_clinic_symptoms": [
+      "pain near injury",
+      "fever",
+      "fast heart rate",
+      "sweating",
+      "anxiety",
+      "yellow skin",
+      "light-headedness",
+      "low blood pressure",
+      "skin discoloration"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "thalassemia": {
+    "current_samples": 1,
+    "mayo_clinic_symptoms": [
+      "fatigue",
+      "weakness",
+      "yellowing of skin",
+      "yellowing of eyes",
+      "changes in skin colr",
+      "changes with facial bones",
+      "slow growth",
+      "dark urine",
+      "poor apetite"
+    ],
+    "notes": "mayo clinic"
+  },
+  "typhoid fever": {
+    "current_samples": 1,
+    "mayo_clinic_symptoms": [
+      "headache",
+      "chills",
+      "loss of apetite",
+      "rose spots rash",
+      "faint pink spots",
+      "stomach pain",
+      "cough",
+      "muscle ache",
+      "nausea",
+      "vomitting",
+      "diarrhea or constipation"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "hypergammaglobulinemia": {
+    "current_samples": 1,
+    "mayo_clinic_symptoms": [
+      "increased blood count of gamma globulins",
+      "deficiences of certain antibodies",
+      "fatigue",
+      "stiffness",
+      "inflammation"
+    ],
+    "notes": "healthline"
+  },
+  "diabetic kidney disease": {
+    "current_samples": 2,
+    "mayo_clinic_symptoms": [
+      "high blood pressure",
+      "swelling of feets",
+      "swelling of ankles",
+      "swelling of hands or eyes",
+      "foamy urine",
+      "confusion or difficulty thinking",
+      "shortness of breath",
+      "loss of apetite",
+      "nausea and vomitting",
+      "itching",
+      "tiredness",
+      "weakeness"
+    ],
+    "notes": "mayo clinic"
+  },
+  "rheumatic fever": {
+    "current_samples": 2,
+    "mayo_clinic_symptoms": [
+      "fever",
+      "joint pain or swelling",
+      "pain in joint",
+      "chest pain",
+      "fatigue",
+      "small painless bumps beneath the skin",
+      "rash"
+    ],
+    "notes": "mayo clinic"
+  },
+  "human immunodeficiency virus infection (hiv)": {
+    "current_samples": 2,
+    "mayo_clinic_symptoms": [
+      "fever",
+      "headache",
+      "muscle aches",
+      "joint pain",
+      "sore throat",
+      "painful mouth sores",
+      "swollen lymph glands",
+      "diarrhea",
+      "weight loss",
+      "cough",
+      "night sweats"
+    ],
+    "notes": "mayo clinic"
+  },
+  "hashimoto thyroiditis": {
+    "current_samples": 2,
+    "mayo_clinic_symptoms": [
+      "fatigue",
+      "sluggishness",
+      "increased sensitivity to cold",
+      "increased sleepiness",
+      "dry skin",
+      "constipation",
+      "muscle weakness",
+      "muscle aches",
+      "tenderness",
+      "stiffness",
+      "joint pain",
+      "menstrual bleeding",
+      "depression",
+      "swelling of thyroid",
+      "puffy face",
+      "brittle nails",
+      "hair loss",
+      "enlargement of tongue",
+      "brittle nails"
+    ],
+    "notes": "mayo clinic"
+  },
+  "carcinoid syndrome": {
+    "current_samples": 2,
+    "mayo_clinic_symptoms": [
+      "skin flushing",
+      "facial skin lessions",
+      "diarrhea",
+      "difficulty breathing",
+      "rapid heartbeat"
+    ],
+    "notes": "mayo clinic"
+  },
+  "sporotrichosis": {
+    "current_samples": 3,
+    "mayo_clinic_symptoms": [
+      "cutaneous skin",
+      "red bump on skin",
+      "redness of eye",
+      "swelling of eyelid",
+      "eye pain",
+      "cough",
+      "shortness of breath",
+      "chest pain",
+      "fever",
+      "disseminated sporotrichosis"
+    ],
+    "notes": "cdc gov"
+  },
+  "cat scratch disease": {
+    "current_samples": 3,
+    "mayo_clinic_symptoms": [
+      "bumps under skin or a rash",
+      "swollen lymph nodes",
+      "fever",
+      "muscle ache",
+      "bone ache",
+      "joint ache",
+      "loss of apetite",
+      "weight loss",
+      "fatigue"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "dengue fever": {
+    "current_samples": 3,
+    "mayo_clinic_symptoms": [
+      "headache",
+      "muscle ache",
+      "bone ache",
+      "joint pain",
+      "vomiting",
+      "nausea",
+      "pain behind the eyes",
+      "swollen glands",
+      "rash"
+    ],
+    "notes": "mayo clinic"
+  },
+  "adrenal cancer": {
+    "current_samples": 3,
+    "mayo_clinic_symptoms": [
+      "back pain",
+      "belly pain",
+      "losing weight without trying",
+      "loss of apetite",
+      "weight gain",
+      "muscle weakness",
+      "pink or purple stretch marks on the skin",
+      "bruises with small injuries",
+      "high blood pressure",
+      "high blood sugar",
+      "diabetes"
+    ],
+    "notes": "mayo clinic"
+  },
+  "necrotizing fasciitis": {
+    "current_samples": 3,
+    "mayo_clinic_symptoms": [
+      "body aches",
+      "fever",
+      "chills",
+      "nausea",
+      "diarrhea",
+      "severe pain at site of injury",
+      "reddened skin",
+      "discolored skin",
+      "swelling of affected tissues",
+      "blisters filled wtih bloody fuild",
+      "blisters with yellowish fluid",
+      "tissue death",
+      "low blood pressure",
+      "sepsis"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "obesity": {
+    "current_samples": 3,
+    "mayo_clinic_symptoms": [
+      "high bmi",
+      "body shape too big"
+    ],
+    "notes": "cleveland and mayo clinic"
+  },
+  "connective tissue disorder": {
+    "current_samples": 3,
+    "mayo_clinic_symptoms": [
+      "musculoskeletal pain",
+      "fatigue",
+      "shortness of breath",
+      "blood pressure changes",
+      "heart beat changes",
+      "unexplained bleeding",
+      "rashes",
+      "bone pain",
+      "joint pain",
+      "swelling",
+      "stiffness"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "myelodysplastic syndrome": {
+    "current_samples": 3,
+    "mayo_clinic_symptoms": [
+      "fatigue",
+      "shortness of breath",
+      "unusual paleness",
+      "easy bruising",
+      "easy bleeding",
+      "small red spots beneath the skin",
+      "frequent infections"
+    ],
+    "notes": "mayo clinic"
+  },
+  "primary thrombocythemia": {
+    "current_samples": 3,
+    "mayo_clinic_symptoms": [
+      "headache",
+      "confusion",
+      "changes in speech",
+      "chest pain",
+      "shortness of breath",
+      "nausea",
+      "weakness",
+      "burning pain in hands or feet",
+      "nosebleeds",
+      "bruising",
+      "bleeding from mouthh or ums",
+      "bloody stool"
+    ],
+    "notes": "mayo clinic"
+  },
+  "esophageal varices": {
+    "current_samples": 3,
+    "mayo_clinic_symptoms": [
+      "vomiting large amounts of blood",
+      "black tarry or bloody stools"
+    ],
+    "notes": "mayo clinic"
+  },
+  "hyperlipidemia": {
+    "current_samples": 3,
+    "mayo_clinic_symptoms": [],
+    "notes": ""
+  },
+  "hemochromatosis": {
+    "current_samples": 3,
+    "mayo_clinic_symptoms": [
+      "joint pain",
+      "belly pain",
+      "fatigue",
+      "weakness",
+      "diabetes",
+      "loss of sex drive",
+      "impotence",
+      "heart failure",
+      "liver failure",
+      "bronze or gray skin color",
+      "memory fog"
+    ],
+    "notes": "mayo clinic"
+  },
+  "lymphangitis": {
+    "current_samples": 3,
+    "mayo_clinic_symptoms": [
+      "red streaks on skin",
+      "headaches",
+      "fever",
+      "chills",
+      "fatigue",
+      "a slow healing wound",
+      "swollen lymph nodes in your groin or armpit"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "amyloidosis": {
+    "current_samples": 4,
+    "mayo_clinic_symptoms": [
+      "serious fatigue or weakness",
+      "shortness of breath",
+      "numbness in the hands or feet",
+      "swelling of ankles and legs",
+      "dizziness",
+      "low blood pressure",
+      "diarrhea",
+      "constipation",
+      "nausea",
+      "loss of apetite",
+      "weight loss"
+    ],
+    "notes": "mayo clinic"
+  },
+  "intussusception": {
+    "current_samples": 4,
+    "mayo_clinic_symptoms": [
+      "stool mixed with blood",
+      "vomiting",
+      "lump in belly",
+      "weakness",
+      "diarrhea"
+    ],
+    "notes": "mayo clinic"
+  },
+  "scurvy": {
+    "current_samples": 4,
+    "mayo_clinic_symptoms": [
+      "irritability",
+      "weakness",
+      "fatigue",
+      "joint pain",
+      "rough scaly skin",
+      "easily bruised",
+      "loosened teeth",
+      "swollen legs",
+      "dry brittle hair",
+      "anemia",
+      "bleeding gums",
+      "opening of previously closed wounds"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "dumping syndrome": {
+    "current_samples": 4,
+    "mayo_clinic_symptoms": [
+      "feeling bloated",
+      "nausea",
+      "vomiting",
+      "stomach cramps",
+      "diarrhea",
+      "flushing",
+      "dizziness",
+      "lightheadedness",
+      "rapid heart rate",
+      "sweating"
+    ],
+    "notes": "mayo clinic"
+  },
+  "syndrome of inappropriate secretion of adh (siadh)": {
+    "current_samples": 4,
+    "mayo_clinic_symptoms": [
+      "muscle cramps",
+      "weakness",
+      "headache",
+      "nausea",
+      "vomiting",
+      "problems with balance",
+      "mental changes",
+      "confusion",
+      "memory problems",
+      "seizures",
+      "coma"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "oral leukoplakia": {
+    "current_samples": 4,
+    "mayo_clinic_symptoms": [
+      "white or gray patches that cannot be wiped away",
+      "patches with rough ridged wrinkled or smooth surface",
+      "thick or hard patches"
+    ],
+    "notes": "mayo clini"
+  },
+  "meckel diverticulum": {
+    "current_samples": 4,
+    "mayo_clinic_symptoms": [
+      "gastrointestinal bleeding",
+      "black stool",
+      "diverticulitis",
+      "bowel obstruction",
+      "bloating",
+      "cramping",
+      "nausea",
+      "vomiting",
+      "abdominal swelling"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "histoplasmosis": {
+    "current_samples": 5,
+    "mayo_clinic_symptoms": [
+      "fever",
+      "cough",
+      "sweating",
+      "shortness of breath",
+      "chest pain",
+      "headache",
+      "muscle aches",
+      "rash",
+      "bumps on lower legs"
+    ],
+    "notes": "cleveland clinci"
+  },
+  "von willebrand disease": {
+    "current_samples": 5,
+    "mayo_clinic_symptoms": [
+      "bleeding for a long time from an injury",
+      "nosebleeds",
+      "heavy menstrual bleeding",
+      "heavy bleeding during labour",
+      "blood in urine",
+      "blood in stool",
+      "easy bruising",
+      "lumpy bruises",
+      "sudden bleeding into joints",
+      "tiredness",
+      "shortness of breath"
+    ],
+    "notes": "mayo clinic"
+  },
+  "hyperosmotic hyperketotic state": {
+    "current_samples": 5,
+    "mayo_clinic_symptoms": [
+      "very high blood sugar",
+      "confusion",
+      "delirium",
+      "hallucinations",
+      "dry mouth",
+      "loss of consciousness",
+      "extreme thirst",
+      "frequent urination",
+      "blurred vision",
+      "lost of vision",
+      "weakness",
+      "paralysis"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "friedrich ataxia": {
+    "current_samples": 5,
+    "mayo_clinic_symptoms": [
+      "muscle weakness",
+      "muscle tightness",
+      "involuntary kerkin",
+      "loss of balance",
+      "loss of coordination",
+      "loss of touch",
+      "loss of feeling in arms and legs",
+      "descreased reflexes",
+      "fatigue",
+      "slow speech",
+      "slurred speech",
+      "difficulty swallowing",
+      "vision loss",
+      "hearing loss",
+      "scoliosis",
+      "foot deformities"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "uterine cancer": {
+    "current_samples": 5,
+    "mayo_clinic_symptoms": [
+      "vaginal bleeding",
+      "lower abdominal pain",
+      "clear vaginal discharge",
+      "white vaginal discharge",
+      "heavy vaginal bleeding"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "cryptorchidism": {
+    "current_samples": 5,
+    "mayo_clinic_symptoms": [],
+    "notes": ""
+  },
+  "vitamin a deficiency": {
+    "current_samples": 5,
+    "mayo_clinic_symptoms": [
+      "night blindness",
+      "foamy spots in the white of eyes"
+    ],
+    "notes": "cleveland"
+  },
+  "spherocytosis": {
+    "current_samples": 5,
+    "mayo_clinic_symptoms": [],
+    "notes": ""
+  },
+  "pelvic fistula": {
+    "current_samples": 5,
+    "mayo_clinic_symptoms": [
+      "leaking of urine through the vagina",
+      "leaking of stool through the vagina",
+      "passing of gas through the vagina",
+      "urinary tract infections",
+      "urine that has unusual odor",
+      "vaginal fluid called discharge that smells unusual",
+      "pain during sex",
+      "pain in the area betweem vagina and anus",
+      "swelling on perineum",
+      "irritation on perineum",
+      "infections of the vagina"
+    ],
+    "notes": "mayo clinic"
+  },
+  "priapism": {
+    "current_samples": 6,
+    "mayo_clinic_symptoms": [
+      "long lasting erection",
+      "rigid penile shaft",
+      "progressively worsening penile pain"
+    ],
+    "notes": "mayo clinic"
+  },
+  "g6pd enzyme deficiency": {
+    "current_samples": 6,
+    "mayo_clinic_symptoms": [
+      "fatigue",
+      "rapid heart rate"
+    ],
+    "notes": "cleveland"
+  },
+  "blepharospasm": {
+    "current_samples": 6,
+    "mayo_clinic_symptoms": [
+      "eyelid twitching"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "wernicke korsakoff syndrome": {
+    "current_samples": 6,
+    "mayo_clinic_symptoms": [
+      "loss of coordination",
+      "confabulation",
+      "confusion",
+      "drowsiness",
+      "difficulty walking",
+      "extreme loss of body heat",
+      "rapid heartbeat",
+      "low blood pressure",
+      "lack of muscle coordination",
+      "abnormal eye movement",
+      "double vision",
+      "drooping eyelid",
+      "eye muscle paralysis",
+      "amnesia",
+      "behavioral change",
+      "delirium",
+      "disorientation",
+      "fatigue",
+      "lethargy",
+      "hallucinations",
+      "lack of focus",
+      "lack of attention"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "tuberous sclerosis": {
+    "current_samples": 6,
+    "mayo_clinic_symptoms": [
+      "patches of lighter skin",
+      "small soft bumps under or around the nails",
+      "seizures",
+      "limits ability to think",
+      "hyperactivity",
+      "self-injury",
+      "agression",
+      "growth on kidney"
+    ],
+    "notes": "mayo clinic"
+  },
+  "empyema": {
+    "current_samples": 6,
+    "mayo_clinic_symptoms": [
+      "chest pain",
+      "discomfort in chest",
+      "fever",
+      "trouble breathing",
+      "cough",
+      "extreme exhaustion",
+      "unexplained weight loss"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "pinguecula": {
+    "current_samples": 6,
+    "mayo_clinic_symptoms": [
+      "bump on eyeball",
+      "pimple on eyeball",
+      "eye irritation",
+      "red eye",
+      "eye watering"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "vulvar cancer": {
+    "current_samples": 6,
+    "mayo_clinic_symptoms": [
+      "lump on vulva",
+      "sore on vulva",
+      "bleeding in genital area",
+      "itching of the skin of the vulva",
+      "pain on vulva",
+      "skin changes in color on vulva"
+    ],
+    "notes": "mayo clinic"
+  },
+  "breast cancer": {
+    "current_samples": 6,
+    "mayo_clinic_symptoms": [
+      "lump on breast",
+      "thickened area on breast",
+      "flattened nipple",
+      "nipple turned inwards",
+      "changes in color of breast skin",
+      "change in size of breast",
+      "shape change of breast",
+      "peeling scaling or flaking of skin on breast"
+    ],
+    "notes": "mayo clinic"
+  },
+  "hypertrophic obstructive cardiomyopathy (hocm)": {
+    "current_samples": 6,
+    "mayo_clinic_symptoms": [
+      "chest pain",
+      "fainting",
+      "fast heartbeats",
+      "pounding heartbeats",
+      "palpitations",
+      "shortness of breath"
+    ],
+    "notes": "mayo clinic"
+  },
+  "edward syndrome": {
+    "current_samples": 6,
+    "mayo_clinic_symptoms": [
+      "little fetal activity",
+      "small placenta",
+      "birth defects",
+      "decreased muscle tone",
+      "low-set ears",
+      "internal organs functioning differently",
+      "issues with cognitive development",
+      "overlapping fingers",
+      "clubfeet",
+      "small physical size",
+      "congenital heart disease",
+      "kidney disease",
+      "hernias",
+      "scoliosis",
+      "breathing abnormalities"
+    ],
+    "notes": "cleveland"
+  },
+  "omphalitis": {
+    "current_samples": 7,
+    "mayo_clinic_symptoms": [
+      "red discolored skin",
+      "thick skin around the stump",
+      "over sleepy",
+      "lethargic",
+      "fefver",
+      "fussy",
+      "irritable",
+      "tender stump"
+    ],
+    "notes": "clevveland clinic"
+  },
+  "fetal alcohol syndrome": {
+    "current_samples": 7,
+    "mayo_clinic_symptoms": [],
+    "notes": ""
+  },
+  "pemphigus": {
+    "current_samples": 7,
+    "mayo_clinic_symptoms": [
+      "blisters in the mouth",
+      "blisters on skin",
+      "painful blisters",
+      "blisters on chest",
+      "blisters on back",
+      "blisters on shoulders"
+    ],
+    "notes": "mayo clinic"
+  },
+  "spinocerebellar ataxia": {
+    "current_samples": 8,
+    "mayo_clinic_symptoms": [
+      "involuntary eye movements",
+      "poor hand-eye coordination",
+      "problems with balance",
+      "slurred speech",
+      "trouble remembering",
+      "trouble processing information",
+      "uncoordinated walking"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "hypercholesterolemia": {
+    "current_samples": 8,
+    "mayo_clinic_symptoms": [],
+    "notes": ""
+  },
+  "acute fatty liver of pregnancy (aflp)": {
+    "current_samples": 9,
+    "mayo_clinic_symptoms": [
+      "nausea",
+      "vomiting",
+      "abdominal pain",
+      "tiredness",
+      "unwell feeling",
+      "loss of apetite",
+      "excessive thirst",
+      "jaundice",
+      "confusion"
+    ],
+    "notes": "cleveland"
+  },
+  "thyroid cancer": {
+    "current_samples": 9,
+    "mayo_clinic_symptoms": [
+      "a lump on neck",
+      "changes in voice",
+      "hoarseness",
+      "difficulty swallowing",
+      "pain in your neck"
+    ],
+    "notes": "mayo clinic"
+  },
+  "valley fever": {
+    "current_samples": 9,
+    "mayo_clinic_symptoms": [
+      "fatigue",
+      "fever",
+      "night sweats",
+      "shortness of breath",
+      "cough",
+      "headache",
+      "muscle aches",
+      "joint pain",
+      "skin rash"
+    ],
+    "notes": "cleveland"
+  },
+  "premature rupture of amniotic membrane": {
+    "current_samples": 9,
+    "mayo_clinic_symptoms": [
+      "vaginal bleeding",
+      "cervical insufficiency",
+      "fatigue",
+      "bruising",
+      "joint pain",
+      "muscle pain",
+      "irritable bowel"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "lichen planus": {
+    "current_samples": 9,
+    "mayo_clinic_symptoms": [
+      "purple shiny bumps on wrists",
+      "purple shiny bumps on forearms",
+      "lines of rash",
+      "lacy white patches on tongue",
+      "white patches on inside of cheeks",
+      "itchness",
+      "painful sores in the mouth",
+      "hair loss",
+      "nail scarring",
+      "nail loss",
+      "dark lines on nail"
+    ],
+    "notes": "mayo clinic"
+  },
+  "insulin overdose": {
+    "current_samples": 9,
+    "mayo_clinic_symptoms": [],
+    "notes": ""
+  },
+  "vacterl syndrome": {
+    "current_samples": 9,
+    "mayo_clinic_symptoms": [],
+    "notes": ""
+  },
+  "poisoning due to opioids": {
+    "current_samples": 9,
+    "mayo_clinic_symptoms": [
+      "breathing difficulties",
+      "altered mental status",
+      "pinpoint pupils",
+      "skin color changes",
+      "nausea",
+      "vomiting"
+    ],
+    "notes": "google ai"
+  },
+  "hemarthrosis": {
+    "current_samples": 9,
+    "mayo_clinic_symptoms": [
+      "swelling around joints",
+      "inflamation around joints",
+      "pain",
+      "trouble moving",
+      "warmth around joint",
+      "bruising",
+      "discoloration"
+    ],
+    "notes": "cleveland"
+  },
+  "cushing syndrome": {
+    "current_samples": 9,
+    "mayo_clinic_symptoms": [
+      "weight gain in the trunk",
+      "weight gain in the face",
+      "moon face",
+      "fatty lump between shoulders",
+      "slow wound healing",
+      "acne",
+      "thin skin",
+      "frail skin",
+      "easy bruising",
+      "irregular periods",
+      "low sex drive",
+      "extreme tiredness",
+      "muscle weakness",
+      "headache",
+      "high blood pressure",
+      "infections"
+    ],
+    "notes": "mayo clinic"
+  },
+  "placenta previa": {
+    "current_samples": 9,
+    "mayo_clinic_symptoms": [
+      "bright red bleeding from vagina",
+      "pregnant",
+      "mild cramping on abdomen"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "aphakia": {
+    "current_samples": 9,
+    "mayo_clinic_symptoms": [
+      "blurred vision",
+      "problems in seeing things close or far away",
+      "colors seem to be faded",
+      "iris that jiggles"
+    ],
+    "notes": "celveland"
+  },
+  "hammer toe": {
+    "current_samples": 9,
+    "mayo_clinic_symptoms": [
+      "pain from wearing shoes",
+      "toe stiffness",
+      "trouble moving affected toe",
+      "growth of calluses from affected toe"
+    ],
+    "notes": "mayo clinic"
+  },
+  "tricuspid valve disease": {
+    "current_samples": 9,
+    "mayo_clinic_symptoms": [
+      "fatigue",
+      "weakness",
+      "abnormal heart rhythm",
+      "enlarged liver",
+      "heart murmur",
+      "pulsing in the chest",
+      "pulsing in the nect",
+      "shortness of breath",
+      "skin that's cold",
+      "swelling in stomach",
+      "swelling in legs",
+      "swelling in ankles",
+      "swelling in feet"
+    ],
+    "notes": "cleveland"
+  },
+  "trichinosis": {
+    "current_samples": 10,
+    "mayo_clinic_symptoms": [
+      "loose stools",
+      "belly pain",
+      "tiredness",
+      "upset stomach",
+      "vomiting",
+      "high fever",
+      "muscle pain",
+      "chills",
+      "muscle tenderness",
+      "aching joints",
+      "swelling of eyelids",
+      "swelling of face",
+      "weakness",
+      "headache",
+      "sensitivity to light",
+      "pink eye",
+      "eye pain",
+      "itchy skin"
+    ],
+    "notes": "mayo clinic"
+  },
+  "avascular necrosis": {
+    "current_samples": 10,
+    "mayo_clinic_symptoms": [],
+    "notes": ""
+  },
+  "vesicoureteral reflux": {
+    "current_samples": 10,
+    "mayo_clinic_symptoms": [
+      "constant urge to urinate",
+      "burning feeling while urinating",
+      "cloudy urine",
+      "fever",
+      "pain in the side",
+      "pain in the groin",
+      "pain in stomach area",
+      "high blood pressure",
+      "protein in urine",
+      "constipation",
+      "leaking urine"
+    ],
+    "notes": "mayo clinic"
+  },
+  "epidural hemorrhage": {
+    "current_samples": 10,
+    "mayo_clinic_symptoms": [
+      "severe headache",
+      "nausea",
+      "vomiting",
+      "enlarged pupil one eye",
+      "confusion",
+      "slurred speech",
+      "dizziness",
+      "weakness on one side of the body",
+      "seizures",
+      "breathing problems",
+      "coma",
+      "loss of brain function"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "testicular cancer": {
+    "current_samples": 10,
+    "mayo_clinic_symptoms": [
+      "lump in either testicle",
+      "swelling in either testicle",
+      "heaviness in the scrotum",
+      "sudden swelling of the scrotum",
+      "dull ache in the lower belly or groin",
+      "enlargement of the breast tissue",
+      "back pain"
+    ],
+    "notes": "mayo clinic"
+  },
+  "reactive arthritis": {
+    "current_samples": 10,
+    "mayo_clinic_symptoms": [
+      "pain",
+      "stiffness",
+      "eye inflammation",
+      "often urination",
+      "burning during urination",
+      "inflamation of tendons",
+      "swollen toes",
+      "swollen fingers",
+      "lower back pain"
+    ],
+    "notes": "mayo clinic"
+  },
+  "chronic kidney disease": {
+    "current_samples": 10,
+    "mayo_clinic_symptoms": [
+      "nausea",
+      "vomiting",
+      "loss of apetite",
+      "fatigue",
+      "weakness",
+      "sleep problems",
+      "decreased mental sharpness",
+      "high blood pressure",
+      "shortness of breath"
+    ],
+    "notes": "mayo clinic"
+  },
+  "aspergillosis": {
+    "current_samples": 10,
+    "mayo_clinic_symptoms": [
+      "fever",
+      "wheezing",
+      "worsening asthma",
+      "cough with blood",
+      "cough with mucus",
+      "fatigue",
+      "shortness of breath",
+      "unintentional weight loss"
+    ],
+    "notes": "mayo clinic"
+  },
+  "poisoning due to antipsychotics": {
+    "current_samples": 10,
+    "mayo_clinic_symptoms": [
+      "sedation",
+      "drowsiness",
+      "lethargy",
+      "coma",
+      "confusion",
+      "delirium",
+      "agitation",
+      "hypotension",
+      "dry mouth",
+      "blurred vision",
+      "urinary retention",
+      "constipation",
+      "severe muscle contractions",
+      "tremors",
+      "slowed movement"
+    ],
+    "notes": "google ai"
+  },
+  "granuloma inguinale": {
+    "current_samples": 10,
+    "mayo_clinic_symptoms": [
+      "sores on groin area",
+      "sores on thighs",
+      "sores around reproductive orga"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "hypercalcemia": {
+    "current_samples": 10,
+    "mayo_clinic_symptoms": [
+      "serious thirst",
+      "frequent urination",
+      "stomach pain",
+      "vomiting",
+      "constipation",
+      "bone pain",
+      "muscle weakness",
+      "trouble focusin",
+      "confusion",
+      "drowsiness",
+      "fatigue",
+      "fast heart beat",
+      "pounding heart"
+    ],
+    "notes": "mayo clinic"
+  },
+  "decubitus ulcer": {
+    "current_samples": 10,
+    "mayo_clinic_symptoms": [
+      "changes in skin color",
+      "changes in skin texture",
+      "swelling",
+      "sore areas",
+      "pus-like draining"
+    ],
+    "notes": "mayo clinic"
+  },
+  "leukemia": {
+    "current_samples": 10,
+    "mayo_clinic_symptoms": [
+      "fever",
+      "chills",
+      "presistent fatigue",
+      "weakness",
+      "severe infections",
+      "losing weight",
+      "swollen lymph nodes",
+      "enlarged liver",
+      "easy bleeding",
+      "easy bruising",
+      "tiny red spots",
+      "excessive sweating",
+      "bone pain",
+      "bone tenderness"
+    ],
+    "notes": "mayo clinic"
+  },
+  "optic neuritis": {
+    "current_samples": 10,
+    "mayo_clinic_symptoms": [
+      "eye pain",
+      "vision less clear",
+      "vision acuity loss",
+      "vision loss",
+      "color vision loss"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "pulmonic valve disease": {
+    "current_samples": 11,
+    "mayo_clinic_symptoms": [
+      "chest pain",
+      "shortness of breath",
+      "fatigue",
+      "fainting"
+    ],
+    "notes": "mayo clinic"
+  },
+  "birth trauma": {
+    "current_samples": 11,
+    "mayo_clinic_symptoms": [],
+    "notes": ""
+  },
+  "volvulus": {
+    "current_samples": 11,
+    "mayo_clinic_symptoms": [
+      "abdominal pain",
+      "abdominal distention",
+      "vomiting",
+      "bloody stools",
+      "constipation",
+      "rapid heart rate",
+      "rapid breathing",
+      "confusion",
+      "shock"
+    ],
+    "notes": "google ai"
+  },
+  "cryptococcosis": {
+    "current_samples": 11,
+    "mayo_clinic_symptoms": [
+      "cough",
+      "shortness of breath",
+      "chest pain",
+      "fever",
+      "headache",
+      "nausea",
+      "vomiting",
+      "sensitivity to light",
+      "neck pain",
+      "neck stiffness",
+      "rashes",
+      "sores",
+      "bumps",
+      "blisters"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "myoclonus": {
+    "current_samples": 11,
+    "mayo_clinic_symptoms": [
+      "sudden jerks",
+      "shakes",
+      "spasms",
+      "involuntary spasms"
+    ],
+    "notes": "mayo clinic"
+  },
+  "galactorrhea of unknown cause": {
+    "current_samples": 11,
+    "mayo_clinic_symptoms": [
+      "milky nipple discharge",
+      "mipple discharge from more than one milk duct",
+      "irregular mentrusal periods",
+      "no menstrual periods",
+      "headaches",
+      "trouble with vision"
+    ],
+    "notes": "mayo clinic"
+  },
+  "zenker diverticulum": {
+    "current_samples": 11,
+    "mayo_clinic_symptoms": [
+      "trouble swallowing",
+      "burpin",
+      "gurgling noise at back of the throat",
+      "bad breath",
+      "choking",
+      "coughing",
+      "hoarseness"
+    ],
+    "notes": "mayo clinic"
+  },
+  "intracranial abscess": {
+    "current_samples": 12,
+    "mayo_clinic_symptoms": [
+      "headache",
+      "confusion",
+      "difficulty thinking",
+      "numbness",
+      "weakness",
+      "paralysis",
+      "speech difficulty",
+      "language difficulty",
+      "fever",
+      "vision changes",
+      "nausea",
+      "vomiting",
+      "seizures",
+      "stiff neck"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "diabetes insipidus": {
+    "current_samples": 12,
+    "mayo_clinic_symptoms": [
+      "very thirsty",
+      "large amounts of pale urine",
+      "poor growth",
+      "weight loss",
+      "constipation",
+      "headache",
+      "problems sleeping",
+      "vision problems",
+      "irritability"
+    ],
+    "notes": "mayo clinic"
+  },
+  "toxoplasmosis": {
+    "current_samples": 12,
+    "mayo_clinic_symptoms": [
+      "fever",
+      "swollen lymph nodes",
+      "headache",
+      "muscle aches",
+      "skin rash",
+      "eye pain",
+      "poor vision",
+      "breathing problems",
+      "fever",
+      "cough",
+      "confusion",
+      "poor coordination",
+      "muscle weakness",
+      "seizures",
+      "changes in alertness",
+      "seizures",
+      "hearing problems",
+      "heart disorders",
+      "rash"
+    ],
+    "notes": "mayo clinic"
+  },
+  "raynaud disease": {
+    "current_samples": 12,
+    "mayo_clinic_symptoms": [
+      "cold fingers",
+      "cold toes",
+      "skin turn white then blue",
+      "skin turn blue",
+      "skin turn white"
+    ],
+    "notes": "mayo clinic"
+  },
+  "moyamoya disease": {
+    "current_samples": 12,
+    "mayo_clinic_symptoms": [
+      "headache",
+      "seizures",
+      "weakness of face",
+      "numbness in arm",
+      "numbess in leg",
+      "vision problems",
+      "trouble speaking",
+      "involuntary movements",
+      "cognitive or developmental delays"
+    ],
+    "notes": "mayo clinic"
+  },
+  "pseudohypoparathyroidism": {
+    "current_samples": 12,
+    "mayo_clinic_symptoms": [
+      "muscle spasms",
+      "muscle cramps",
+      "numbness in your hands",
+      "numbness in your feet",
+      "seizures",
+      "teeth growth slow",
+      "weakened tooth enamel",
+      "low blood pressure",
+      "brittle hair",
+      "brittle nails",
+      "anxiety"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "anemia due to malignancy": {
+    "current_samples": 12,
+    "mayo_clinic_symptoms": [
+      "chest pain",
+      "dizziness",
+      "frequent infections",
+      "heart palpitations",
+      "headache",
+      "pale skin color",
+      "shortness of breath"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "hpv": {
+    "current_samples": 13,
+    "mayo_clinic_symptoms": [
+      "warts around genital area"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "factitious disorder": {
+    "current_samples": 13,
+    "mayo_clinic_symptoms": [],
+    "notes": ""
+  },
+  "congenital malformation syndrome": {
+    "current_samples": 13,
+    "mayo_clinic_symptoms": [
+      "protein levels higher or lower than expected",
+      "extra fuild behind a fetus' next",
+      "structural abnormalities of a fetus' internal organs",
+      "abnormal heart rhythm",
+      "difficulty breathing",
+      "difficulty feeding",
+      "irritability",
+      "not responding to loud noises"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "hypothermia": {
+    "current_samples": 13,
+    "mayo_clinic_symptoms": [
+      "shivering",
+      "slurred speech",
+      "mumbling",
+      "shallow breathing",
+      "slow breathing",
+      "weak pulse",
+      "clumsiness",
+      "lack of coordination",
+      "confusion",
+      "memory loss",
+      "drowsiness",
+      "loss of consiousness"
+    ],
+    "notes": "mayo clinic"
+  },
+  "fibrocystic breast disease": {
+    "current_samples": 14,
+    "mayo_clinic_symptoms": [
+      "breast lumps",
+      "breast pain",
+      "breast tenderness",
+      "breast discomfort",
+      "breast nodules change in size with menstrual cycle",
+      "green or dark brown nonbloody nipple discharge",
+      "breast changes",
+      "increase in breast pain"
+    ],
+    "notes": "mayo clininc"
+  },
+  "wilson disease": {
+    "current_samples": 14,
+    "mayo_clinic_symptoms": [
+      "golden or brown ring around the eyes",
+      "cloudy or star-shaped cataracts in the eyes",
+      "yellowing of the eyes",
+      "shaky hands or arms",
+      "slow flapping movement of the arms",
+      "difficulty speaking",
+      "difficulty swallowing",
+      "poor balance or coordination",
+      "stiff muscles",
+      "uncontrolled movements",
+      "depression",
+      "mood changes",
+      "irritability",
+      "trouble sleeping",
+      "confusion or loss of touch with reality",
+      "yellowing of the skin",
+      "swelling of the legs",
+      "swelling of the stomach"
+    ],
+    "notes": "mayo clinic"
+  },
+  "syringomyelia": {
+    "current_samples": 14,
+    "mayo_clinic_symptoms": [
+      "muscle weakness",
+      "muscle wasting",
+      "loss of reflexes",
+      "reduced pain sensation",
+      "reduced temperature sensation",
+      "headaches",
+      "muscle stiffness in back shoulders arms and legs",
+      "neck pain",
+      "arm pain",
+      "back pain",
+      "sideways curvature of the spine"
+    ],
+    "notes": "mayo clinic"
+  },
+  "pneumoconiosis": {
+    "current_samples": 14,
+    "mayo_clinic_symptoms": [
+      "long-term cough",
+      "coughing up large amounts of mucus",
+      "shortness of breath",
+      "fluid buildup around the lungs"
+    ],
+    "notes": "webmd.com"
+  },
+  "placental abruption": {
+    "current_samples": 14,
+    "mayo_clinic_symptoms": [
+      "vaginal bleeding",
+      "abdominal pain",
+      "cramping",
+      "strong or frequent uterine contractions",
+      "uterine tenderness",
+      "back pain",
+      "reduced fetal movement"
+    ],
+    "notes": ""
+  },
+  "malaria": {
+    "current_samples": 15,
+    "mayo_clinic_symptoms": [
+      "fever",
+      "chills",
+      "general feeling of discomfort",
+      "headache",
+      "nausea",
+      "vomiting",
+      "diarrhea",
+      "abdominal pain",
+      "muscle or joint pain",
+      "fatigue",
+      "rapid breathing",
+      "rapid heart rate",
+      "cough"
+    ],
+    "notes": "mayo clinic"
+  },
+  "cystic fibrosis": {
+    "current_samples": 15,
+    "mayo_clinic_symptoms": [
+      "salty-tasting sweat",
+      "long-lasting cough with thick mucus",
+      "wheezing",
+      "shortness of breath",
+      "low exercise tolerance",
+      "repeated lung infections",
+      "stuffy or swollen nose",
+      "repeated sinus infections",
+      "foul-smelling greasy stools",
+      "poor weight gain",
+      "slow growth",
+      "blocked intestines",
+      "severe or ongoing constipation",
+      "rectal prolapse",
+      "repeated pancreatitis",
+      "infertility",
+      "repeated pneumonia"
+    ],
+    "notes": ""
+  },
+  "colorectal cancer": {
+    "current_samples": 15,
+    "mayo_clinic_symptoms": [
+      "change in bowel habits",
+      "diarrhea",
+      "constipation",
+      "rectal bleeding",
+      "blood in stool",
+      "abdominal cramps",
+      "gas",
+      "abdominal pain",
+      "feeling of incomplete bowel emptying",
+      "weakness",
+      "fatigue",
+      "unexplained weight loss"
+    ],
+    "notes": "mayo clinic"
+  },
+  "pyloric stenosis": {
+    "current_samples": 16,
+    "mayo_clinic_symptoms": [
+      "vomiting after feeding",
+      "projectile vomiting",
+      "constant hunger",
+      "visible stomach contractions",
+      "dehydration",
+      "few wet diapers",
+      "low energy",
+      "dry mouth and lips",
+      "crying without tears",
+      "constipation",
+      "poor weight gain",
+      "weight loss"
+    ],
+    "notes": "mayo clinic"
+  },
+  "rhabdomyolysis": {
+    "current_samples": 16,
+    "mayo_clinic_symptoms": [
+      "muscle swelling",
+      "muscle weakness",
+      "muscle pain",
+      "sore muscles",
+      "dark urine",
+      "dehydration",
+      "reduced urination",
+      "nausea",
+      "loss of consciousness"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "kidney disease due to longstanding hypertension": {
+    "current_samples": 17,
+    "mayo_clinic_symptoms": [
+      "nausea",
+      "vomiting",
+      "loss of appetite",
+      "fatigue",
+      "weakness",
+      "sleep problems",
+      "reduced mental sharpness",
+      "high blood pressure",
+      "shortness of breath"
+    ],
+    "notes": ""
+  },
+  "vitamin d deficiency": {
+    "current_samples": 17,
+    "mayo_clinic_symptoms": [
+      "bowed or bent bones",
+      "abnormal bone growth",
+      "muscle weakness",
+      "bone pain",
+      "joint deformities",
+      "sore muscles",
+      "muscle pain",
+      "fatigue",
+      "muscle aches",
+      "muscle cramps",
+      "mood changes",
+      "depression"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "thyroid disease": {
+    "current_samples": 17,
+    "mayo_clinic_symptoms": [
+      "slow heart rate",
+      "fatigue",
+      "unexplained weight gain",
+      "cold sensitivity",
+      "dry skin",
+      "dry coarse hair",
+      "depressed mood",
+      "heavy menstrual periods",
+      "fast heart rate",
+      "difficulty sleeping",
+      "unexplained weight loss",
+      "heat sensitivity",
+      "sweaty or clammy skin",
+      "anxiety",
+      "irritability",
+      "nervousness",
+      "irregular menstrual cycles",
+      "missed periods",
+      "enlarged thyroid"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "poisoning due to antihypertensives": {
+    "current_samples": 17,
+    "mayo_clinic_symptoms": [
+      "dizziness",
+      "lightheadedness",
+      "extreme tiredness",
+      "weakness",
+      "nausea",
+      "vomiting",
+      "headache",
+      "confusion",
+      "altered mental state",
+      "slow heart rate",
+      "fast heart rate",
+      "irregular heartbeat",
+      "shortness of breath",
+      "difficulty breathing",
+      "cold clammy skin",
+      "pale skin",
+      "fainting",
+      "loss of consciousness",
+      "seizures",
+      "swelling of hands",
+      "swelling of ankles",
+      "swelling of legs",
+      "low blood sugar",
+      "high blood sugar",
+      "dehydration",
+      "electrolyte imbalance",
+      "facial swelling",
+      "tongue swelling",
+      "throat swelling"
+    ],
+    "notes": "google ai"
+  },
+  "glucocorticoid deficiency": {
+    "current_samples": 17,
+    "mayo_clinic_symptoms": [
+      "extreme fatigue",
+      "dizziness",
+      "fainting when standing",
+      "low blood pressure",
+      "sweating",
+      "low blood sugar",
+      "nausea",
+      "vomiting",
+      "diarrhea",
+      "abdominal pain",
+      "muscle cramps",
+      "muscle weakness",
+      "joint pain",
+      "body hair loss",
+      "darkened skin patches",
+      "weight loss",
+      "loss of appetite",
+      "depression",
+      "irritability",
+      "low sex drive",
+      "salt craving"
+    ],
+    "notes": "mayo clinic"
+  },
+  "parathyroid adenoma": {
+    "current_samples": 18,
+    "mayo_clinic_symptoms": [
+      "fatigue",
+      "weakness",
+      "confusion",
+      "memory loss",
+      "depression",
+      "irritability",
+      "kidney stones",
+      "bone pain",
+      "joint pain",
+      "osteoporosis",
+      "bone fractures",
+      "abdominal pain",
+      "heartburn",
+      "nausea",
+      "vomiting",
+      "constipation",
+      "general body aches",
+      "high blood pressure",
+      "increased urination"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "central atherosclerosis": {
+    "current_samples": 18,
+    "mayo_clinic_symptoms": [
+      "shortness of breath",
+      "chest pain",
+      "chest discomfort",
+      "back pain",
+      "shoulder pain",
+      "neck pain",
+      "arm pain",
+      "abdominal pain",
+      "dizziness",
+      "lightheadedness",
+      "heart palpitations",
+      "fatigue",
+      "nausea",
+      "vomiting",
+      "indigestion-like discomfort",
+      "abdominal cramps after eating",
+      "bloating",
+      "diarrhea",
+      "unintentional weight loss",
+      "muscle pain in legs",
+      "leg pain while walking",
+      "burning foot pain at rest",
+      "aching foot pain",
+      "skin color changes",
+      "cool feet",
+      "frequent leg or foot infections",
+      "non-healing sores on feet or toes"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "cyst of the eyelid": {
+    "current_samples": 18,
+    "mayo_clinic_symptoms": [
+      "eyelid bump",
+      "eyelid pain",
+      "eyelid redness",
+      "eyelid swelling",
+      "eyelid tenderness",
+      "eye irritation",
+      "watery eyes",
+      "blurred vision",
+      "fully swollen eyelid"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "meningioma": {
+    "current_samples": 18,
+    "mayo_clinic_symptoms": [
+      "vision changes",
+      "double vision",
+      "blurred vision",
+      "morning headaches",
+      "hearing loss",
+      "ringing in ears",
+      "memory loss",
+      "loss of smell",
+      "seizures",
+      "arm weakness",
+      "leg weakness",
+      "trouble speaking"
+    ],
+    "notes": "mayo clinic"
+  },
+  "chronic inflammatory demyelinating polyneuropathy (cidp)": {
+    "current_samples": 18,
+    "mayo_clinic_symptoms": [
+      "progressive muscle weakness",
+      "hip weakness",
+      "thigh weakness",
+      "shoulder weakness",
+      "upper arm weakness",
+      "hand weakness",
+      "foot weakness",
+      "muscle wasting",
+      "tingling in fingers",
+      "tingling in toes",
+      "numbness",
+      "balance problems",
+      "coordination problems",
+      "loss of mobility",
+      "reduced reflexes",
+      "nerve pain",
+      "difficulty swallowing",
+      "neck weakness",
+      "double vision"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "ependymoma": {
+    "current_samples": 19,
+    "mayo_clinic_symptoms": [
+      "back pain",
+      "balance problems",
+      "blurred vision",
+      "vision changes",
+      "dizziness",
+      "headaches",
+      "mood swings",
+      "muscle weakness",
+      "nausea",
+      "vomiting",
+      "neck pain",
+      "numbness in arms",
+      "numbness in legs",
+      "seizures",
+      "urinary incontinence",
+      "enlarged head in infants",
+      "sleep problems in infants",
+      "irritability",
+      "fussiness",
+      "frequent vomiting or spitting up"
+    ],
+    "notes": "cleveland clini"
+  },
+  "abscess of the lung": {
+    "current_samples": 19,
+    "mayo_clinic_symptoms": [
+      "chest pain when breathing",
+      "cough",
+      "fatigue",
+      "fever",
+      "loss of appetite",
+      "night sweats",
+      "foul-smelling sputum",
+      "pus in sputum",
+      "blood-streaked sputum",
+      "weight loss"
+    ],
+    "notes": "webmd"
+  },
+  "ovarian cancer": {
+    "current_samples": 19,
+    "mayo_clinic_symptoms": [
+      "abdominal bloating",
+      "abdominal swelling",
+      "feeling full quickly",
+      "weight loss",
+      "pelvic discomfort",
+      "fatigue",
+      "back pain",
+      "constipation",
+      "frequent urination"
+    ],
+    "notes": "mayo clinic"
+  },
+  "uveitis": {
+    "current_samples": 19,
+    "mayo_clinic_symptoms": [
+      "eye pain",
+      "red eye",
+      "eye irritation",
+      "blurred vision",
+      "light sensitivity",
+      "swollen conjunctiva",
+      "irregular pupil shape",
+      "white fluid in front of eye",
+      "increased eye floaters",
+      "visual field gaps",
+      "reduced vision"
+    ],
+    "notes": "cleveland clinic"
+  },
+  "otosclerosis": {
+    "current_samples": 19,
+    "mayo_clinic_symptoms": [
+      "gradual hearing loss",
+      "difficulty hearing whispers",
+      "difficulty hearing low-pitched sounds",
+      "hearing loss in both ears",
+      "hearing loss in one ear",
+      "balance problems",
+      "vertigo",
+      "ringing in ears",
+      "dizziness",
+      "speaking quietly"
+    ],
+    "notes": ""
+  },
+  "hirschsprung disease": {
+    "current_samples": 19,
+    "mayo_clinic_symptoms": [
+      "failure to pass stool after birth",
+      "constipation",
+      "gas",
+      "diarrhea",
+      "poor growth",
+      "abdominal pain",
+      "swollen belly",
+      "vomiting",
+      "green or brown vomit",
+      "long-term constipation",
+      "failure to gain weight",
+      "fatigue"
+    ],
+    "notes": "mayo clinic"
+  },
+  "pharyngitis": {
+    "current_samples": 19,
+    "mayo_clinic_symptoms": [
+      "sore throat",
+      "dry raspy throat",
+      "pain when swallowing",
+      "pain when talking",
+      "ear pain",
+      "neck pain",
+      "fever",
+      "headache",
+      "upset stomach",
+      "swollen lymph nodes",
+      "nasal congestion",
+      "runny nose",
+      "cough",
+      "fatigue",
+      "hoarseness",
+      "red or swollen throat",
+      "swollen tonsils",
+      "white patches in throat",
+      "white spots on tonsils"
+    ],
+    "notes": "cleveland clinic"
+  }
+}

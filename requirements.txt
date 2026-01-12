@@ -1,0 +1,28 @@
+# Backend API
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# PDF Processing (lightweight)
+PyPDF2==3.0.1
+
+# Data handling
+pandas==2.1.4
+numpy==1.24.3
+
+# Model Inference Only (CPU-optimized)
+torch==2.1.2  # CPU version
+torchvision==0.16.2
+transformers==4.36.2
+lightgbm==4.1.0
+
+# Image processing (lightweight)
+Pillow==10.1.0
+
+# Utilities
+scikit-learn==1.4.0
+python-dotenv==1.0.0
+tqdm==4.66.1
+
+# Optional: For testing
+requests==2.31.0
