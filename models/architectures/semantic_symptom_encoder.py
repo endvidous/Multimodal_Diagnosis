@@ -26,7 +26,7 @@ from sentence_transformers import SentenceTransformer
 class SemanticSymptomEncoder:
     def __init__(
         self,
-        model_name: str = "all-MiniLM-L12-v2",
+        model_name: str = "multi-qa-mpnet-base-dot-v1",
         symptom_vocab_path: Optional[str] = None,
         embeddings_cache_path: Optional[str] = None,
         device: str = "cpu"
@@ -125,10 +125,14 @@ class SemanticSymptomEncoder:
     # Core API
     # ------------------------------------------------------------------
 
-    def encode_symptoms(self, text: str) -> Dict[str, Any]:
+    def encode_symptoms(self, text: str, return_all_scores: bool = False) -> Dict[str, Any]:
         """
         Convert free-form symptom text into a 377-dim continuous
         symptom evidence vector (0–1).
+        
+        Args:
+            text: Input symptom description
+            return_all_scores: If True, includes a dict mapping all symptoms to their scores
         """
         if not text or not text.strip():
             return {
@@ -160,14 +164,19 @@ class SemanticSymptomEncoder:
         for i, symptom in enumerate(self.symptoms):
             if self._normalize(symptom) in text_n:
                 evidence[i] = max(evidence[i], 0.9)
-
-        return {
+        
+        response = {
             "symptom_vector": evidence.astype(np.float32)
         }
+        
+        if return_all_scores:
+            response["all_scores"] = evidence
+
+        return response
 
     def batch_encode(self, texts: List[str]) -> np.ndarray:
         """
-        Encode multiple texts. Returns an (N, 377) matrix.
+        Encode multiple texts. 
         """
         if not texts:
             return np.empty((0, len(self.symptoms)), dtype=np.float32)
@@ -204,6 +213,41 @@ class SemanticSymptomEncoder:
         if self.embeddings_cache_path.exists():
             self.embeddings_cache_path.unlink()
         self.symptom_embeddings = self._load_or_compute_embeddings()
+
+    def get_top_symptoms(self, symptom_vector: np.ndarray, top_k: int = 10, threshold: float = 0.0) -> List[tuple]:
+        """
+        Extract top-k symptoms with scores from an evidence vector.
+        
+        Args:
+            symptom_vector: The evidence vector from encode_symptoms()
+            top_k: Number of top symptoms to return
+            threshold: Minimum score threshold (symptoms below this are excluded)
+        
+        Returns:
+            List of (symptom_name, score) tuples, sorted by score descending
+        """
+        indices = np.argsort(symptom_vector)[::-1][:top_k]
+        results = []
+        for idx in indices:
+            score = float(symptom_vector[idx])
+            if score >= threshold:
+                results.append((self.idx_to_symptom[idx], score))
+        return results
+
+    def get_symptom_score(self, symptom_vector: np.ndarray, symptom_name: str) -> float:
+        """
+        Get the score for a specific symptom from an evidence vector.
+        
+        Args:
+            symptom_vector: The evidence vector from encode_symptoms()
+            symptom_name: Name of the symptom to look up
+            
+        Returns:
+            Score for the symptom (0.0 if not found)
+        """
+        if symptom_name in self.symptom_to_idx:
+            return float(symptom_vector[self.symptom_to_idx[symptom_name]])
+        return 0.0
 
 
 # ----------------------------------------------------------------------

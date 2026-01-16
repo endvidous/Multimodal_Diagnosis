@@ -1,0 +1,1258 @@
+{
+  "rocky mountain spotted fever": {
+    "mapped_symptoms": [
+      "loss of appetite",
+      "high fever",
+      "anxiety",
+      "abdominal pain",
+      "nausea and vomiting",
+      "sensitivity to light",
+      "confusion",
+      "headache",
+      "numbness",
+      "muscle pain",
+      "seizure",
+      "shortness of breath",
+      "rash"
+    ],
+    "original_count": 1
+  },
+  "myocarditis": {
+    "mapped_symptoms": [
+      "fatigue",
+      "lightheadedness",
+      "chest pain",
+      "dizziness",
+      "foot or toe swelling",
+      "irregular heartbeat",
+      "shortness of breath",
+      "swelling of ankles",
+      "leg swelling"
+    ],
+    "original_count": 1
+  },
+  "kaposi sarcoma": {
+    "mapped_symptoms": [
+      "lymphedema",
+      "vomiting",
+      "difficulty breathing",
+      "abdominal pain",
+      "mouth pain",
+      "constipation",
+      "blood in stool",
+      "diarrhea"
+    ],
+    "original_count": 1
+  },
+  "turner syndrome": {
+    "mapped_symptoms": [
+      "low-set ears"
+    ],
+    "original_count": 1
+  },
+  "chronic ulcer": {
+    "mapped_symptoms": [
+      "gas",
+      "nausea",
+      "vomiting blood",
+      "vomiting",
+      "bloating",
+      "anemia",
+      "heartburn"
+    ],
+    "original_count": 1
+  },
+  "high blood pressure": {
+    "mapped_symptoms": [
+      "shortness of breath",
+      "headache",
+      "nosebleed"
+    ],
+    "original_count": 1
+  },
+  "diabetes": {
+    "mapped_symptoms": [
+      "fatigue",
+      "weight loss",
+      "infections",
+      "blurred vision",
+      "weakness",
+      "thirst"
+    ],
+    "original_count": 1
+  },
+  "gas gangrene": {
+    "mapped_symptoms": [
+      "anxiety",
+      "fever",
+      "jaundice",
+      "low blood pressure",
+      "fast heart rate",
+      "sweating"
+    ],
+    "original_count": 1
+  },
+  "thalassemia": {
+    "mapped_symptoms": [
+      "fatigue",
+      "loss of appetite",
+      "jaundice",
+      "slow growth",
+      "weakness",
+      "dark urine"
+    ],
+    "original_count": 1
+  },
+  "typhoid fever": {
+    "mapped_symptoms": [
+      "loss of appetite",
+      "nausea",
+      "vomiting",
+      "muscle ache",
+      "abdominal pain",
+      "headache",
+      "chills",
+      "cough"
+    ],
+    "original_count": 1
+  },
+  "hypergammaglobulinemia": {
+    "mapped_symptoms": [
+      "fatigue",
+      "stiffness"
+    ],
+    "original_count": 1
+  },
+  "diabetic kidney disease": {
+    "mapped_symptoms": [
+      "fatigue",
+      "loss of appetite",
+      "high blood pressure",
+      "nausea and vomiting",
+      "foot or toe swelling",
+      "shortness of breath",
+      "weakness",
+      "itching of skin",
+      "swelling of ankles"
+    ],
+    "original_count": 2
+  },
+  "rheumatic fever": {
+    "mapped_symptoms": [
+      "fatigue",
+      "chest pain",
+      "fever",
+      "joint pain",
+      "rash"
+    ],
+    "original_count": 2
+  },
+  "human immunodeficiency virus infection (hiv)": {
+    "mapped_symptoms": [
+      "swollen lymph nodes",
+      "muscle ache",
+      "fever",
+      "sore throat",
+      "joint pain",
+      "headache",
+      "weight loss",
+      "cough",
+      "night sweats",
+      "diarrhea"
+    ],
+    "original_count": 2
+  },
+  "hashimoto thyroiditis": {
+    "mapped_symptoms": [
+      "hair loss",
+      "fatigue",
+      "muscle ache",
+      "joint pain",
+      "dry skin",
+      "muscle weakness",
+      "depression",
+      "constipation",
+      "brittle nails",
+      "stiffness"
+    ],
+    "original_count": 2
+  },
+  "carcinoid syndrome": {
+    "mapped_symptoms": [
+      "rapid heartbeat",
+      "difficulty breathing",
+      "flushing",
+      "diarrhea"
+    ],
+    "original_count": 2
+  },
+  "sporotrichosis": {
+    "mapped_symptoms": [
+      "chest pain",
+      "eye pain",
+      "fever",
+      "eye redness",
+      "shortness of breath",
+      "cough"
+    ],
+    "original_count": 3
+  },
+  "cat scratch disease": {
+    "mapped_symptoms": [
+      "swollen lymph nodes",
+      "loss of appetite",
+      "fatigue",
+      "muscle ache",
+      "fever",
+      "weight loss",
+      "bone ache"
+    ],
+    "original_count": 3
+  },
+  "dengue fever": {
+    "mapped_symptoms": [
+      "swollen lymph nodes",
+      "nausea",
+      "vomiting",
+      "muscle ache",
+      "joint pain",
+      "headache",
+      "bone ache",
+      "rash"
+    ],
+    "original_count": 3
+  },
+  "adrenal cancer": {
+    "mapped_symptoms": [
+      "loss of appetite",
+      "abdominal pain",
+      "back pain",
+      "high blood pressure",
+      "muscle weakness",
+      "diabetes",
+      "weight gain",
+      "high blood sugar"
+    ],
+    "original_count": 3
+  },
+  "necrotizing fasciitis": {
+    "mapped_symptoms": [
+      "nausea",
+      "fever",
+      "chills",
+      "low blood pressure",
+      "diarrhea"
+    ],
+    "original_count": 3
+  },
+  "connective tissue disorder": {
+    "mapped_symptoms": [
+      "fatigue",
+      "joint pain",
+      "bone pain",
+      "shortness of breath",
+      "swelling",
+      "rash",
+      "stiffness"
+    ],
+    "original_count": 3
+  },
+  "myelodysplastic syndrome": {
+    "mapped_symptoms": [
+      "fatigue",
+      "frequent infections",
+      "easy bleeding",
+      "shortness of breath",
+      "easy bruising"
+    ],
+    "original_count": 3
+  },
+  "primary thrombocythemia": {
+    "mapped_symptoms": [
+      "nausea",
+      "chest pain",
+      "bruising",
+      "confusion",
+      "nosebleed",
+      "headache",
+      "shortness of breath",
+      "weakness",
+      "blood in stool"
+    ],
+    "original_count": 3
+  },
+  "hemochromatosis": {
+    "mapped_symptoms": [
+      "fatigue",
+      "abdominal pain",
+      "joint pain",
+      "diabetes",
+      "loss of sex drive",
+      "impotence",
+      "weakness",
+      "heart palpitations"
+    ],
+    "original_count": 3
+  },
+  "lymphangitis": {
+    "mapped_symptoms": [
+      "chills",
+      "fatigue",
+      "headache",
+      "fever"
+    ],
+    "original_count": 3
+  },
+  "amyloidosis": {
+    "mapped_symptoms": [
+      "nausea",
+      "loss of appetite",
+      "dizziness",
+      "weight loss",
+      "low blood pressure",
+      "shortness of breath",
+      "constipation",
+      "diarrhea"
+    ],
+    "original_count": 4
+  },
+  "intussusception": {
+    "mapped_symptoms": [
+      "weakness",
+      "vomiting",
+      "diarrhea"
+    ],
+    "original_count": 4
+  },
+  "scurvy": {
+    "mapped_symptoms": [
+      "fatigue",
+      "irritability",
+      "joint pain",
+      "anemia",
+      "weakness",
+      "bleeding gums",
+      "leg swelling"
+    ],
+    "original_count": 4
+  },
+  "dumping syndrome": {
+    "mapped_symptoms": [
+      "rapid heart rate",
+      "nausea",
+      "lightheadedness",
+      "vomiting",
+      "dizziness",
+      "abdominal pain",
+      "bloating",
+      "flushing",
+      "sweating",
+      "diarrhea"
+    ],
+    "original_count": 4
+  },
+  "syndrome of inappropriate secretion of adh (siadh)": {
+    "mapped_symptoms": [
+      "nausea",
+      "vomiting",
+      "confusion",
+      "headache",
+      "coma",
+      "seizure",
+      "muscle cramps",
+      "weakness",
+      "problems with balance"
+    ],
+    "original_count": 4
+  },
+  "meckel diverticulum": {
+    "mapped_symptoms": [
+      "nausea",
+      "abdominal swelling",
+      "vomiting",
+      "cramping",
+      "bloating"
+    ],
+    "original_count": 4
+  },
+  "histoplasmosis": {
+    "mapped_symptoms": [
+      "chest pain",
+      "muscle ache",
+      "fever",
+      "headache",
+      "shortness of breath",
+      "cough",
+      "sweating",
+      "rash"
+    ],
+    "original_count": 5
+  },
+  "von willebrand disease": {
+    "mapped_symptoms": [
+      "fatigue",
+      "blood in urine",
+      "nosebleed",
+      "shortness of breath",
+      "easy bruising",
+      "blood in stool"
+    ],
+    "original_count": 5
+  },
+  "hyperosmotic hyperketotic state": {
+    "mapped_symptoms": [
+      "loss of consciousness",
+      "confusion",
+      "delirium",
+      "blurred vision",
+      "dry mouth",
+      "hallucinations",
+      "weakness",
+      "frequent urination",
+      "paralysis"
+    ],
+    "original_count": 5
+  },
+  "friedrich ataxia": {
+    "mapped_symptoms": [
+      "fatigue",
+      "loss of coordination",
+      "vision loss",
+      "muscle weakness",
+      "muscle stiffness or tightness",
+      "loss of sensation",
+      "scoliosis",
+      "hearing loss",
+      "difficulty swallowing",
+      "problems with balance",
+      "slurred speech"
+    ],
+    "original_count": 5
+  },
+  "uterine cancer": {
+    "mapped_symptoms": [
+      "vaginal bleeding",
+      "lower abdominal pain"
+    ],
+    "original_count": 5
+  },
+  "pelvic fistula": {
+    "mapped_symptoms": [
+      "pain during intercourse"
+    ],
+    "original_count": 5
+  },
+  "g6pd enzyme deficiency": {
+    "mapped_symptoms": [
+      "fatigue",
+      "rapid heart rate"
+    ],
+    "original_count": 6
+  },
+  "wernicke korsakoff syndrome": {
+    "mapped_symptoms": [
+      "fatigue",
+      "drowsiness",
+      "double vision",
+      "loss of coordination",
+      "rapid heartbeat",
+      "confusion",
+      "low blood pressure",
+      "hallucinations",
+      "delirium"
+    ],
+    "original_count": 6
+  },
+  "tuberous sclerosis": {
+    "mapped_symptoms": [
+      "seizure"
+    ],
+    "original_count": 6
+  },
+  "empyema": {
+    "mapped_symptoms": [
+      "cough",
+      "chest pain",
+      "weight loss",
+      "fever"
+    ],
+    "original_count": 6
+  },
+  "pinguecula": {
+    "mapped_symptoms": [
+      "red eye",
+      "eye irritation"
+    ],
+    "original_count": 6
+  },
+  "vulvar cancer": {
+    "mapped_symptoms": [
+      "mass on vulva"
+    ],
+    "original_count": 6
+  },
+  "hypertrophic obstructive cardiomyopathy (hocm)": {
+    "mapped_symptoms": [
+      "loss of consciousness",
+      "chest pain",
+      "shortness of breath",
+      "fast heart rate",
+      "palpitations"
+    ],
+    "original_count": 6
+  },
+  "edward syndrome": {
+    "mapped_symptoms": [
+      "scoliosis",
+      "low-set ears"
+    ],
+    "original_count": 6
+  },
+  "omphalitis": {
+    "mapped_symptoms": [
+      "fever"
+    ],
+    "original_count": 7
+  },
+  "spinocerebellar ataxia": {
+    "mapped_symptoms": [
+      "slurred speech",
+      "problems with balance",
+      "eye moves abnormally"
+    ],
+    "original_count": 8
+  },
+  "acute fatty liver of pregnancy (aflp)": {
+    "mapped_symptoms": [
+      "fatigue",
+      "nausea",
+      "loss of appetite",
+      "vomiting",
+      "abdominal pain",
+      "jaundice",
+      "confusion"
+    ],
+    "original_count": 9
+  },
+  "thyroid cancer": {
+    "mapped_symptoms": [
+      "hoarse voice",
+      "difficulty swallowing"
+    ],
+    "original_count": 9
+  },
+  "valley fever": {
+    "mapped_symptoms": [
+      "fatigue",
+      "skin rash",
+      "muscle ache",
+      "fever",
+      "headache",
+      "joint pain",
+      "shortness of breath",
+      "cough",
+      "night sweats"
+    ],
+    "original_count": 9
+  },
+  "premature rupture of amniotic membrane": {
+    "mapped_symptoms": [
+      "fatigue",
+      "bruising",
+      "joint pain",
+      "muscle pain",
+      "vaginal bleeding"
+    ],
+    "original_count": 9
+  },
+  "lichen planus": {
+    "mapped_symptoms": [
+      "hair loss"
+    ],
+    "original_count": 9
+  },
+  "poisoning due to opioids": {
+    "mapped_symptoms": [
+      "skin color changes",
+      "nausea",
+      "vomiting"
+    ],
+    "original_count": 9
+  },
+  "hemarthrosis": {
+    "mapped_symptoms": [
+      "pain",
+      "bruising"
+    ],
+    "original_count": 9
+  },
+  "cushing syndrome": {
+    "mapped_symptoms": [
+      "fatigue",
+      "low sex drive",
+      "high blood pressure",
+      "headache",
+      "infections",
+      "muscle weakness",
+      "easy bruising"
+    ],
+    "original_count": 9
+  },
+  "aphakia": {
+    "mapped_symptoms": [
+      "blurred vision"
+    ],
+    "original_count": 9
+  },
+  "tricuspid valve disease": {
+    "mapped_symptoms": [
+      "fatigue",
+      "enlarged liver",
+      "shortness of breath",
+      "weakness",
+      "leg swelling",
+      "abnormal heart rhythm"
+    ],
+    "original_count": 9
+  },
+  "trichinosis": {
+    "mapped_symptoms": [
+      "fatigue",
+      "high fever",
+      "vomiting",
+      "abdominal pain",
+      "eye pain",
+      "sensitivity to light",
+      "headache",
+      "eye redness",
+      "muscle pain",
+      "chills",
+      "upset stomach",
+      "weakness",
+      "itching of skin"
+    ],
+    "original_count": 10
+  },
+  "vesicoureteral reflux": {
+    "mapped_symptoms": [
+      "high blood pressure",
+      "constipation",
+      "fever"
+    ],
+    "original_count": 10
+  },
+  "epidural hemorrhage": {
+    "mapped_symptoms": [
+      "nausea",
+      "vomiting",
+      "dizziness",
+      "breathing problems",
+      "confusion",
+      "headache",
+      "coma",
+      "seizure",
+      "slurred speech"
+    ],
+    "original_count": 10
+  },
+  "testicular cancer": {
+    "mapped_symptoms": [
+      "back pain"
+    ],
+    "original_count": 10
+  },
+  "reactive arthritis": {
+    "mapped_symptoms": [
+      "pain",
+      "foot or toe swelling",
+      "eye redness",
+      "hand or finger swelling",
+      "stiffness"
+    ],
+    "original_count": 10
+  },
+  "chronic kidney disease": {
+    "mapped_symptoms": [
+      "fatigue",
+      "nausea",
+      "loss of appetite",
+      "vomiting",
+      "sleep problems",
+      "high blood pressure",
+      "shortness of breath",
+      "weakness"
+    ],
+    "original_count": 10
+  },
+  "aspergillosis": {
+    "mapped_symptoms": [
+      "fatigue",
+      "wheezing",
+      "fever",
+      "weight loss",
+      "shortness of breath"
+    ],
+    "original_count": 10
+  },
+  "poisoning due to antipsychotics": {
+    "mapped_symptoms": [
+      "fatigue",
+      "drowsiness",
+      "confusion",
+      "constipation",
+      "coma",
+      "blurred vision",
+      "dry mouth",
+      "delirium"
+    ],
+    "original_count": 10
+  },
+  "hypercalcemia": {
+    "mapped_symptoms": [
+      "fatigue",
+      "drowsiness",
+      "vomiting",
+      "abdominal pain",
+      "confusion",
+      "heart palpitations",
+      "muscle weakness",
+      "bone pain",
+      "fast heart rate",
+      "constipation",
+      "frequent urination"
+    ],
+    "original_count": 10
+  },
+  "decubitus ulcer": {
+    "mapped_symptoms": [
+      "skin color changes",
+      "swelling"
+    ],
+    "original_count": 10
+  },
+  "leukemia": {
+    "mapped_symptoms": [
+      "swollen lymph nodes",
+      "enlarged liver",
+      "fever",
+      "easy bleeding",
+      "weight loss",
+      "chills",
+      "bone pain",
+      "easy bruising",
+      "weakness"
+    ],
+    "original_count": 10
+  },
+  "optic neuritis": {
+    "mapped_symptoms": [
+      "vision loss",
+      "eye pain"
+    ],
+    "original_count": 10
+  },
+  "pulmonic valve disease": {
+    "mapped_symptoms": [
+      "fatigue",
+      "loss of consciousness",
+      "shortness of breath",
+      "chest pain"
+    ],
+    "original_count": 11
+  },
+  "volvulus": {
+    "mapped_symptoms": [
+      "rapid heart rate",
+      "vomiting",
+      "abdominal pain",
+      "confusion",
+      "bloating",
+      "rapid breathing",
+      "constipation",
+      "blood in stool"
+    ],
+    "original_count": 11
+  },
+  "cryptococcosis": {
+    "mapped_symptoms": [
+      "nausea",
+      "chest pain",
+      "vomiting",
+      "fever",
+      "sensitivity to light",
+      "headache",
+      "rash",
+      "shortness of breath",
+      "cough",
+      "neck pain"
+    ],
+    "original_count": 11
+  },
+  "galactorrhea of unknown cause": {
+    "mapped_symptoms": [
+      "vision problems",
+      "headache"
+    ],
+    "original_count": 11
+  },
+  "zenker diverticulum": {
+    "mapped_symptoms": [
+      "hoarse voice",
+      "difficulty swallowing"
+    ],
+    "original_count": 11
+  },
+  "intracranial abscess": {
+    "mapped_symptoms": [
+      "nausea",
+      "vomiting",
+      "fever",
+      "confusion",
+      "headache",
+      "numbness",
+      "seizure",
+      "vision changes",
+      "weakness",
+      "paralysis"
+    ],
+    "original_count": 12
+  },
+  "diabetes insipidus": {
+    "mapped_symptoms": [
+      "irritability",
+      "weight loss",
+      "headache",
+      "poor growth",
+      "constipation",
+      "vision problems"
+    ],
+    "original_count": 12
+  },
+  "toxoplasmosis": {
+    "mapped_symptoms": [
+      "swollen lymph nodes",
+      "skin rash",
+      "loss of coordination",
+      "muscle ache",
+      "eye pain",
+      "fever",
+      "breathing problems",
+      "confusion",
+      "headache",
+      "muscle weakness",
+      "seizure",
+      "cough",
+      "rash"
+    ],
+    "original_count": 12
+  },
+  "moyamoya disease": {
+    "mapped_symptoms": [
+      "seizure",
+      "vision problems",
+      "headache",
+      "difficulty speaking"
+    ],
+    "original_count": 12
+  },
+  "pseudohypoparathyroidism": {
+    "mapped_symptoms": [
+      "anxiety",
+      "low blood pressure",
+      "seizure",
+      "muscle cramps",
+      "brittle nails"
+    ],
+    "original_count": 12
+  },
+  "anemia due to malignancy": {
+    "mapped_symptoms": [
+      "frequent infections",
+      "chest pain",
+      "dizziness",
+      "headache",
+      "shortness of breath",
+      "heart palpitations"
+    ],
+    "original_count": 12
+  },
+  "congenital malformation syndrome": {
+    "mapped_symptoms": [
+      "difficulty breathing",
+      "abnormal heart rhythm",
+      "irritability"
+    ],
+    "original_count": 13
+  },
+  "hypothermia": {
+    "mapped_symptoms": [
+      "drowsiness",
+      "loss of consciousness",
+      "loss of coordination",
+      "confusion",
+      "memory loss",
+      "slurred speech"
+    ],
+    "original_count": 13
+  },
+  "wilson disease": {
+    "mapped_symptoms": [
+      "irritability",
+      "difficulty speaking",
+      "mood changes",
+      "depression",
+      "difficulty swallowing"
+    ],
+    "original_count": 14
+  },
+  "syringomyelia": {
+    "mapped_symptoms": [
+      "arm pain",
+      "back pain",
+      "headache",
+      "muscle wasting",
+      "muscle weakness",
+      "loss of sensation",
+      "neck pain"
+    ],
+    "original_count": 14
+  },
+  "pneumoconiosis": {
+    "mapped_symptoms": [
+      "shortness of breath"
+    ],
+    "original_count": 14
+  },
+  "placental abruption": {
+    "mapped_symptoms": [
+      "vaginal bleeding",
+      "back pain",
+      "abdominal pain",
+      "cramping"
+    ],
+    "original_count": 14
+  },
+  "malaria": {
+    "mapped_symptoms": [
+      "fatigue",
+      "nausea",
+      "rapid heart rate",
+      "vomiting",
+      "abdominal pain",
+      "fever",
+      "headache",
+      "muscle pain",
+      "chills",
+      "rapid breathing",
+      "cough",
+      "diarrhea"
+    ],
+    "original_count": 15
+  },
+  "cystic fibrosis": {
+    "mapped_symptoms": [
+      "infertility",
+      "wheezing",
+      "slow growth",
+      "shortness of breath",
+      "poor weight gain"
+    ],
+    "original_count": 15
+  },
+  "colorectal cancer": {
+    "mapped_symptoms": [
+      "gas",
+      "fatigue",
+      "abdominal pain",
+      "rectal bleeding",
+      "weight loss",
+      "constipation",
+      "blood in stool",
+      "weakness",
+      "diarrhea"
+    ],
+    "original_count": 15
+  },
+  "pyloric stenosis": {
+    "mapped_symptoms": [
+      "dehydration",
+      "constipation",
+      "weight loss",
+      "dry mouth",
+      "poor weight gain"
+    ],
+    "original_count": 16
+  },
+  "rhabdomyolysis": {
+    "mapped_symptoms": [
+      "nausea",
+      "dehydration",
+      "loss of consciousness",
+      "muscle pain",
+      "muscle weakness",
+      "sore muscles",
+      "muscle swelling",
+      "dark urine"
+    ],
+    "original_count": 16
+  },
+  "kidney disease due to longstanding hypertension": {
+    "mapped_symptoms": [
+      "fatigue",
+      "nausea",
+      "loss of appetite",
+      "vomiting",
+      "sleep problems",
+      "high blood pressure",
+      "shortness of breath",
+      "weakness"
+    ],
+    "original_count": 17
+  },
+  "vitamin d deficiency": {
+    "mapped_symptoms": [
+      "fatigue",
+      "muscle ache",
+      "muscle pain",
+      "muscle weakness",
+      "bone pain",
+      "muscle cramps",
+      "mood changes",
+      "depression",
+      "sore muscles"
+    ],
+    "original_count": 17
+  },
+  "thyroid disease": {
+    "mapped_symptoms": [
+      "fatigue",
+      "anxiety",
+      "irritability",
+      "weight loss",
+      "dry skin",
+      "weight gain",
+      "slow heart rate",
+      "fast heart rate",
+      "heavy menstrual flow"
+    ],
+    "original_count": 17
+  },
+  "poisoning due to antihypertensives": {
+    "mapped_symptoms": [
+      "fatigue",
+      "low blood sugar",
+      "headache",
+      "seizure",
+      "shortness of breath",
+      "irregular heartbeat",
+      "nausea",
+      "dizziness",
+      "confusion",
+      "throat swelling",
+      "weakness",
+      "leg swelling",
+      "lightheadedness",
+      "difficulty breathing",
+      "slow heart rate",
+      "pallor",
+      "fast heart rate",
+      "swelling of ankles",
+      "loss of consciousness",
+      "dehydration",
+      "vomiting",
+      "hand or finger swelling",
+      "high blood sugar",
+      "swelling"
+    ],
+    "original_count": 17
+  },
+  "glucocorticoid deficiency": {
+    "mapped_symptoms": [
+      "fatigue",
+      "nausea",
+      "loss of appetite",
+      "vomiting",
+      "dizziness",
+      "abdominal pain",
+      "irritability",
+      "low blood sugar",
+      "low sex drive",
+      "joint pain",
+      "weight loss",
+      "low blood pressure",
+      "muscle weakness",
+      "muscle cramps",
+      "depression",
+      "sweating",
+      "diarrhea"
+    ],
+    "original_count": 17
+  },
+  "parathyroid adenoma": {
+    "mapped_symptoms": [
+      "fatigue",
+      "nausea",
+      "vomiting",
+      "irritability",
+      "abdominal pain",
+      "high blood pressure",
+      "confusion",
+      "constipation",
+      "joint pain",
+      "bone pain",
+      "memory loss",
+      "depression",
+      "weakness",
+      "heartburn"
+    ],
+    "original_count": 18
+  },
+  "central atherosclerosis": {
+    "mapped_symptoms": [
+      "fatigue",
+      "nausea",
+      "lightheadedness",
+      "chest pain",
+      "dizziness",
+      "back pain",
+      "arm pain",
+      "abdominal pain",
+      "heart palpitations",
+      "vomiting",
+      "bloating",
+      "weight loss",
+      "shortness of breath",
+      "diarrhea",
+      "skin color changes",
+      "shoulder pain",
+      "neck pain"
+    ],
+    "original_count": 18
+  },
+  "cyst of the eyelid": {
+    "mapped_symptoms": [
+      "blurred vision",
+      "eyelid swelling",
+      "eye irritation"
+    ],
+    "original_count": 18
+  },
+  "meningioma": {
+    "mapped_symptoms": [
+      "double vision",
+      "difficulty speaking",
+      "ringing in ear",
+      "arm weakness",
+      "seizure",
+      "memory loss",
+      "disturbance of smell or taste",
+      "leg weakness",
+      "vision changes",
+      "blurred vision",
+      "hearing loss"
+    ],
+    "original_count": 18
+  },
+  "chronic inflammatory demyelinating polyneuropathy (cidp)": {
+    "mapped_symptoms": [
+      "hip weakness",
+      "double vision",
+      "balance problems",
+      "numbness",
+      "muscle wasting",
+      "neck weakness",
+      "difficulty swallowing",
+      "shoulder weakness"
+    ],
+    "original_count": 18
+  },
+  "ependymoma": {
+    "mapped_symptoms": [
+      "nausea",
+      "vomiting",
+      "dizziness",
+      "back pain",
+      "irritability",
+      "balance problems",
+      "headache",
+      "muscle weakness",
+      "seizure",
+      "vision changes",
+      "blurred vision",
+      "neck pain"
+    ],
+    "original_count": 19
+  },
+  "abscess of the lung": {
+    "mapped_symptoms": [
+      "fatigue",
+      "loss of appetite",
+      "fever",
+      "pus in sputum",
+      "weight loss",
+      "cough",
+      "night sweats"
+    ],
+    "original_count": 19
+  },
+  "ovarian cancer": {
+    "mapped_symptoms": [
+      "fatigue",
+      "abdominal swelling",
+      "back pain",
+      "weight loss",
+      "constipation",
+      "frequent urination"
+    ],
+    "original_count": 19
+  },
+  "uveitis": {
+    "mapped_symptoms": [
+      "eye pain",
+      "sensitivity to light",
+      "red eye",
+      "blurred vision",
+      "eye irritation"
+    ],
+    "original_count": 19
+  },
+  "otosclerosis": {
+    "mapped_symptoms": [
+      "balance problems",
+      "dizziness",
+      "ringing in ear"
+    ],
+    "original_count": 19
+  },
+  "hirschsprung disease": {
+    "mapped_symptoms": [
+      "gas",
+      "fatigue",
+      "vomiting",
+      "abdominal pain",
+      "poor growth",
+      "constipation",
+      "poor weight gain",
+      "diarrhea"
+    ],
+    "original_count": 19
+  },
+  "pharyngitis": {
+    "mapped_symptoms": [
+      "swollen lymph nodes",
+      "fatigue",
+      "fever",
+      "hoarse voice",
+      "sore throat",
+      "cough",
+      "headache",
+      "ear pain",
+      "swollen or red tonsils",
+      "nasal congestion",
+      "upset stomach",
+      "neck pain",
+      "difficulty swallowing"
+    ],
+    "original_count": 19
+  }
+}

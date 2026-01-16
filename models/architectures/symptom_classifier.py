@@ -30,7 +30,7 @@ class SymptomCategoryClassifier:
                 X, y,
                 eval_set=eval_set,
                 eval_metric='multi_logloss',
-                callbacks=[lgb.early_stopping(stopping_rounds=self.stopping_rounds)]
+                callbacks=[lgb.early_stopping(stopping_rounds=self.stopping_rounds, verbose=True)]
             )
         else: 
             self.model.fit(X,y)
@@ -46,7 +46,7 @@ class SymptomCategoryClassifier:
         if self.feature_names is None: 
             return []
         importances = self.model.feature_importances_
-        indices = np.argsort(importances)[-top_n][::-1]
+        indices = np.argsort(importances)[-top_n:][::-1]
         return [(self.feature_names[i], importances[i]) for i in indices]
     
     def save(self, path: str):
@@ -95,7 +95,7 @@ class SymptomDiseaseClassifier:
                 X, y,
                 eval_set= eval_set,
                 eval_metric='multi_logloss',
-                callbacks=[lgb.early_stopping(stopping_rounds=self.stopping_rounds, verbose=False)]
+                callbacks=[lgb.early_stopping(stopping_rounds=self.stopping_rounds, verbose=True)]
             )
         else:
             self.model.fit(X,y)

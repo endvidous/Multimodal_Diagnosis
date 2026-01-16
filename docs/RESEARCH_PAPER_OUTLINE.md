@@ -64,14 +64,72 @@ Key results on 224K samples:
 - Trained separate model with 482 features
 - Statistical significance via McNemar's test
 
+### 3.4 Data Processing Pipeline
+
+We established a strict sequential pipeline to ensure data integrity and model robustness:
+
+1.  **Vocabulary Standardization**:
+    - *Rationale*: Raw medical text is noisy. "Vomitting" and "Vomiting" must be treated as the same feature to prevent signal dilution. We merged synonyms and fixed typos *before* any downstream processing.
+    
+2.  **Dataset Consolidation**:
+    - *Rationale*: Merging duplicate columns (e.g., separate features for `headache` and `headaches`) recovers lost information. If a patient had `headaches=1` but `headache=0`, a naive model might miss the signal. Our MAX-merge strategy ensures ~42% of rows gained feature density.
+
+3.  **Synthetic Augmentation**:
+    - *Rationale*: Real-world data is heavily imbalanced. Rare diseases (e.g., *Progeria*) had <10 samples. We synthesized samples using authorized symptom lists (Mayo Clinic) to ensure the model learns robust decision boundaries for all 667 classes, not just common ones.
+
+4.  **Two-Stage Training**:
+    - *Rationale*: We decoupled feature learning (Semantic Encoder) from classification. This allows the encoder to focus purely on "understanding symptoms" without overfitting to specific disease prevalences.
+
 ---
 
 ## 4. Dataset
 
 - **Source**: Augmented symptom-disease dataset
 - **Size**: 224K samples, 667 diseases, 14 categories
-- **Features**: 480 binary symptoms + 2 demographic
+- **Features**: 455 canonical symptoms + 2 demographic
 - **Split**: 80% train, 10% val, 10% test
+
+### 4.1 Data Preprocessing & Cleaning
+
+#### Symptom Vocabulary Normalization
+
+We implemented a comprehensive symptom normalization pipeline to ensure data consistency:
+
+1. **Typo Correction**: Fixed common medical typos
+   - `vomitting` → `vomiting`
+   - `apetite` → `appetite`
+   - `neusea` → `nausea`
+
+2. **Singular/Plural Standardization**: Converted to singular forms
+   - `headaches` → `headache`
+   - `rashes` → `rash`
+   - `nosebleeds` → `nosebleed`
+
+3. **Synonym Consolidation**: Mapped semantic equivalents to canonical forms
+   - `belly pain`, `stomach pain` → `abdominal pain`
+   - `tiredness`, `lethargy`, `extreme tiredness` → `fatigue`
+   - `hoarseness` → `hoarse voice`
+   - `losing weight`, `unexplained weight loss` → `weight loss`
+
+4. **Data Artifact Removal**: Cleaned pandas merge artifacts
+   - `regurgitation.1` → `regurgitation`
+
+#### Duplicate Column Merging
+
+The augmented dataset contained 17 groups of duplicate symptom columns (e.g., `vomiting` and `vomitting` as separate features). We merged these using a MAX strategy:
+
+- If **any** duplicate column has value 1 → merged result = 1
+- This preserves all positive symptom signals (no information loss)
+- Reduced feature space from 481 to 456 unique symptoms
+
+**Impact**: 93,520 rows (41.76%) gained additional symptom signals through consolidation.
+
+#### Rare Disease Augmentation
+
+Diseases with <25 training samples were augmented using Mayo Clinic symptom data:
+- Manual curation of symptoms from authoritative medical sources
+- Symptom mapping to standardized vocabulary using fuzzy matching
+- Synthetic sample generation with random symptom subsets
 
 ---
 
