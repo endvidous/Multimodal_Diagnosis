@@ -16,9 +16,9 @@ We present a symptom-to-disease prediction system that combines:
 
 Key results on 224K samples:
 
-- **Hierarchical Ensemble:** Top-1: 84.88%, Top-3: 96.08	%
-- **Baseline (Flat):** Top-1: 80.2%, Top-5: 91.5%
-- Demographics add +2.8% improvement to base models
+- **Hierarchical Ensemble:** Top-1: 86.40%, Top-5: 97.91%
+- **Baseline (Flat):** Top-1: 81.06%, Top-5: 91.26%
+- Demographics add +2.53% improvement to base models
 - Outperforms logistic regression and random forest baselines
 
 ---
@@ -38,7 +38,7 @@ Key results on 224K samples:
 | Ada Health     | Rule-based + ML   | ~1000    | 51%             |
 | Babylon        | Bayesian networks | ~500     | 60%             |
 | Isabel         | Knowledge graph   | ~6000    | 48%             |
-| **Ours** | Semantic + ML     | 667      | **77.3%** |
+| **Ours** | Semantic + ML     | 667      | **86.4%** |
 
 ---
 
@@ -56,7 +56,7 @@ Key results on 224K samples:
 - Stage 1: Category classifier (14 classes) - 90.5% accuracy
 - Stage 2: Specialist Disease classifiers (14 models)
 - Stage 3: **Probabilistic Ensemble Routing** (Top-3 Categories)
-- Achieves **84.88% Top-1 Accuracy** (vs 80.2% Flat)
+- Achieves **86.40% Top-1 Accuracy** (vs 81.06% Flat)
 
 ### 3.3 Demographic Features
 
@@ -164,9 +164,9 @@ Diseases with <25 training samples were augmented using Mayo Clinic symptom data
 
 | Model                           | Top-1            | Top-3            | Top-5            |
 | ------------------------------- | ---------------- | ---------------- | ---------------- |
-| Symptoms Only                   | 77.4%            | 88.5%            | 90.9%            |
-| + Demographics                  | 80.2%            | 89.4%            | 91.5%            |
-| **Hierarchical Ensemble** | **84.88%** | **96.08%** | **97.99%** |
+| Symptoms Only                   | 78.5%            | 88.5%            | 89.6%            |
+| + Demographics                  | 81.1%            | 89.4%            | 91.3%            |
+| **Hierarchical Ensemble** | **86.40%** | **96.08%** | **97.91%** |
 
 ### Table 2: Baseline Comparison
 
@@ -174,7 +174,7 @@ Diseases with <25 training samples were augmented using Mayo Clinic symptom data
 | ------------------- | ---------------- | ------------- |
 | Logistic Regression | ~79.01%          | 193.3s        |
 | Random Forest       | ~66.69%          | 21.4s         |
-| LightGBM (Ours)     | **80.20%** | 60s           |
+| LightGBM (Ours)     | **81.06%** | 60s           |
 
 ---
 
@@ -182,12 +182,12 @@ Diseases with <25 training samples were augmented using Mayo Clinic symptom data
 
 ### 7.1 Interpreting Performance Metrics
 
-- **Context of +1.5% Improvement**: A +1.5% gain over Logistic Regression is significant in medical diagnosis. Linear models perform well on structured data, but fail on the complex edge cases that our model captures.
+- **Context of +2.0% Improvement**: A +2.0% gain over Logistic Regression is significant in medical diagnosis. Linear models perform well on structured data, but fail on the complex edge cases that our model captures.
 - **The "Model" is the Pipeline**: The core innovation is the **Semantic Encoder**, which translates raw text (e.g., "my head hurts") into interpretable features. Standard baselines like Logistic Regression require structured input and cannot function on natural language directly.
-- **Hierarchical Superiority**: The Hierarchical Ensemble (84.88%) significantly outperforms the Flat Demographic model (80.20%). By training specialist models, we reduce the decision space for each classifier, allowing them to learn subtler distinctions between similar diseases (e.g., *Flu* vs *Common Cold* within *Infectious Diseases*).
+- **Hierarchical Superiority**: The Hierarchical Ensemble (86.40%) significantly outperforms the Flat Demographic model (81.06%). By training specialist models, we reduce the decision space for each classifier, allowing them to learn subtler distinctions between similar diseases (e.g., *Flu* vs *Common Cold* within *Infectious Diseases*).
 - **Soft Routing Robustness**: Our "Top-3 Probabilistic Routing" strategy (96.08% Top-3) mitigates the risk of cascading errors where a wrong category prediction would otherwise lead to failure.
-- **Comparison to Random Forest**: We achieved a **+18.2% improvement** over Random Forest with the ensemble.
-- **Top-5 Accuracy (98.0%)**: The correct disease is in the top 5 candidates 98% of the time, making this a highly reliable filter for doctors.
+- **Comparison to Random Forest**: We achieved a **+19.7% improvement** over Random Forest with the ensemble.
+- **Top-5 Accuracy (97.9%)**: The correct disease is in the top 5 candidates 97.9% of the time, making this a highly reliable filter for doctors.
 
 ### 7.2 Strengths & Limitations
 
@@ -207,10 +207,10 @@ Diseases with <25 training samples were augmented using Mayo Clinic symptom data
 
 ## 8. Conclusion
 
-We demonstrated a practical symptom-to-disease system achieving 77.3% Top-1 accuracy on 667 diseases. Key innovations:
+We demonstrated a practical symptom-to-disease system achieving 86.4% Top-1 accuracy on 667 diseases. Key innovations:
 
 1. Sentence-level semantic encoding
-2. Demographic-aware prediction (+2.1%)
+2. Demographic-aware prediction (+2.5%)
 3. Hierarchical classification for interpretability
 
 **Future Work:**
