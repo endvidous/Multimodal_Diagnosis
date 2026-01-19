@@ -1,7 +1,7 @@
 """
 Semantic Symptom Encoder (Soft Evidence Version)
 
-Encodes free-form symptom text into a 377-dimensional continuous
+Encodes free-form symptom text into a 458-dimensional continuous
 "symptom evidence" vector using sentence-transformer embeddings.
 
 This encoder DOES NOT perform symptom detection.
@@ -11,7 +11,7 @@ which is consumed by downstream ML models (e.g., LightGBM).
 Key properties:
 - Sentence-level encoding with top-k mean pooling
 - Continuous evidence output (0–1), not binary
-- MiniLM-friendly (low compute, stable)
+- Uses multi-qa-mpnet-base-dot-v1 (768-dim embeddings)
 - Lexical safety net for literal symptom mentions
 """
 

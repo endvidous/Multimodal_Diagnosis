@@ -14,7 +14,8 @@ class SymptomCategoryClassifier:
             num_leaves=31,
             class_weight=class_weight,
             random_state=42,
-            verbose=-1
+            verbose=-1,
+            n_jobs=4
         )
         self.categories = None
         self.feature_names = None
@@ -24,6 +25,8 @@ class SymptomCategoryClassifier:
         self.categories = sorted(np.unique(y))
         if hasattr(X, 'columns'):
             self.feature_names = list(X.columns)
+        
+        print(f"Training {self.__class__.__name__} with shape {X.shape}")
         
         if eval_set is not None:
             self.model.fit(
@@ -79,7 +82,8 @@ class SymptomDiseaseClassifier:
             num_leaves=31,
             class_weight=class_weight if class_weight else 'balanced',
             random_state=42,
-            verbose=-1
+            verbose=-1,
+            n_jobs=4
         )
         self.diseases = None
         self.feature_names = None
@@ -90,6 +94,8 @@ class SymptomDiseaseClassifier:
         if hasattr(X, 'columns'):
             self.feature_names = list(X.columns)
         
+        print(f"Training {self.__class__.__name__} for category '{self.category}' with shape {X.shape}")
+
         if eval_set is not None:
             self.model.fit(
                 X, y,

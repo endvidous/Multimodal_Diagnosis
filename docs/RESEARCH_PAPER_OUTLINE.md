@@ -6,20 +6,23 @@
 
 ---
 
-## Abstract (150 words)
+## Abstract (200 words)
 
-We present a symptom-to-disease prediction system that combines:
+We present a hierarchical symptom-to-disease prediction system combining semantic encoding with demographic-aware classification. Our approach addresses key challenges in automated medical diagnosis: bridging the gap between colloquial and clinical terminology, handling severe class imbalance in rare diseases, and incorporating patient demographics.
 
-1. **Semantic symptom encoding** using sentence transformers to understand free-text descriptions
-2. **Hierarchical classification** (category → disease) for 667 diseases across 14 categories
-3. **Demographic features** (age, sex) to improve diagnostic accuracy
+The system employs:
+1. **Semantic symptom encoding** using multi-qa-mpnet-base-dot-v1 transformers (768-dim) to map free-text descriptions to 480 standardized symptoms
+2. **Hierarchical classification** with specialist models for 667 diseases across 14 categories
+3. **Demographic integration** (age, sex) for improved diagnostic accuracy
 
-Key results on 224K samples:
+**Evaluation on 207K samples** (including synthetic augmentation for 135 rare diseases):
+- Hierarchical Ensemble: **86.40%** Top-1, **97.91%** Top-5 accuracy
+- Flat Baseline: 81.06% Top-1, 91.26% Top-5 accuracy  
+- Relative improvement: **+5.34%** over flat baseline, **+19.7%** over Random Forest
+- Demographics contribute **+2.9%** improvement
 
-- **Hierarchical Ensemble:** Top-1: 86.40%, Top-5: 97.91%
-- **Baseline (Flat):** Top-1: 81.06%, Top-5: 91.26%
-- Demographics add +2.53% improvement to base models
-- Outperforms logistic regression and random forest baselines
+> [!IMPORTANT]
+> **Evaluation Note**: Results obtained on partially synthetic dataset. Component testing suggests real-world end-to-end performance may be lower (estimated 65-75%). Clinical validation on real patient data is required before deployment.
 
 ---
 
@@ -33,12 +36,15 @@ Key results on 224K samples:
 
 ## 2. Related Work
 
-| System         | Approach          | Diseases | Top-1 Acc       |
-| -------------- | ----------------- | -------- | --------------- |
-| Ada Health     | Rule-based + ML   | ~1000    | 51%             |
-| Babylon        | Bayesian networks | ~500     | 60%             |
-| Isabel         | Knowledge graph   | ~6000    | 48%             |
-| **Ours** | Semantic + ML     | 667      | **86.4%** |
+Prior work in automated symptom-based diagnosis spans several approaches:
+
+**Rule-based systems**: Early symptom checkers used hand-crafted rules mapping symptoms to diseases, but suffered from maintenance burden and limited coverage.
+
+**Probabilistic models**: Bayesian networks and similar approaches model symptom-disease relationships probabilistically, but require explicit probability elicitation.
+
+**Machine learning approaches**: Recent work applies classical ML (Random Forest, SVM) and deep learning to symptom classification, typically requiring structured symptom input.
+
+**Key gap**: Most existing systems require structured symptom input rather than free-text. Our contribution focuses on bridging colloquial symptom descriptions to clinical terminology via semantic encoding.
 
 ---
 
@@ -46,14 +52,14 @@ Key results on 224K samples:
 
 ### 3.1 Semantic Symptom Encoder
 
-- MiniLM-L6-v2 sentence embeddings (384-dim)
-- 377 canonical symptoms with enriched descriptions
+- multi-qa-mpnet-base-dot-v1 sentence embeddings (768-dim)
+- 458 canonical symptoms with enriched descriptions
 - **Sentence-level encoding** to prevent symptom dilution
 - Similarity threshold-based matching
 
 ### 3.2 Hierarchical Classification
 
-- Stage 1: Category classifier (14 classes) - 90.5% accuracy
+- Stage 1: Category classifier (14 classes) - 92.9% accuracy
 - Stage 2: Specialist Disease classifiers (14 models)
 - Stage 3: **Probabilistic Ensemble Routing** (Top-3 Categories)
 - Achieves **86.40% Top-1 Accuracy** (vs 81.06% Flat)
@@ -61,7 +67,7 @@ Key results on 224K samples:
 ### 3.3 Demographic Features
 
 - Age (normalized 0-1) + Sex (binary)
-- Trained separate model with 482 features
+- Trained separate model with 482 features (480 symptoms + 2 demographic)
 - Statistical significance via McNemar's test
 
 ### 3.4 Data Processing Pipeline
@@ -85,11 +91,27 @@ We established a strict sequential pipeline to ensure data integrity and model r
 ## 4. Dataset
 
 - **Source**: Augmented symptom-disease dataset
-- **Size**: 224K samples, 667 diseases, 14 categories
-- **Features**: 455 canonical symptoms + 2 demographic
+- **Size**: 207K samples, 667 diseases, 14 categories
+- **Features**: 480 symptom features + 2 demographic
 - **Split**: 80% train, 10% val, 10% test
 
-### 4.1 Data Preprocessing & Cleaning
+### 4.1 Main Dataset
+
+The dataset was constructed from a master list of **773 potential diseases** derived from medical ontologies and raw symptom data.
+
+- **Initial Collection**: 773 diseases in raw dataset
+- **Data Pruning Criteria**:
+  - **Exclusion of Non-Predictable Conditions**: Removed diseases primarily diagnosed via trauma, imaging, or lab tests rather than symptom patterns (e.g., "open wound due to trauma")
+  - **Data Sufficiency**: Filtered diseases with insufficient symptom information (<4 symptoms)
+- **Processed Statistics**:
+  - **Processed Dataset**: 630 unique diseases retained after cleaning
+  - **Final Modeling Target**: **615 diseases** selected for training (meeting minimum sample thresholds after augmentation)
+- **Final Dataset**:
+  - **Total Samples**: 207,387 (after filtering)
+  - **Features**: 480 symptom features + 2 demographic features
+  - **Symptom Vocabulary**: 458 canonical symptoms (mapped from colloquial terms)t
+
+### 4.2 Data Preprocessing & Cleaning
 
 #### Symptom Vocabulary Normalization
 
@@ -120,16 +142,32 @@ The augmented dataset contained 17 groups of duplicate symptom columns (e.g., `v
 
 - If **any** duplicate column has value 1 → merged result = 1
 - This preserves all positive symptom signals (no information loss)
-- Reduced feature space from 481 to 456 unique symptoms
+- Reduced feature space from 481 to 480 unique symptoms after merging duplicates
 
 **Impact**: 93,520 rows (41.76%) gained additional symptom signals through consolidation.
 
-#### Rare Disease Augmentation
+#### Rare Disease Augmentation Pipeline
 
-Diseases with <25 training samples were augmented using Mayo Clinic symptom data:
-- Manual curation of symptoms from authoritative medical sources
-- Symptom mapping to standardized vocabulary using fuzzy matching
-- Synthetic sample generation with random symptom subsets
+To address severe class imbalance, we implemented a multi-stage augmentation pipeline:
+
+**Stage 1: Disease Selection**
+- Identified 135 diseases with fewer than 5 training samples
+- Manual curation of symptom lists from authoritative medical websites (Mayo Clinic, Cleveland Clinic, WebMD, etc.)
+- 11 diseases could not be augmented due to insufficient reliable symptom information
+
+**Stage 2: Symptom Collection & Normalization**
+- Manually entered symptoms from web sources into structured format
+- Applied vocabulary normalization to fix typos and inconsistencies in manually entered data
+- Mapped symptoms to standardized vocabulary using fuzzy matching (>85% similarity threshold)
+
+**Stage 3: Synthetic Sample Generation**
+- Generated synthetic samples by randomly selecting symptom subsets (50-80% of disease symptoms)
+- Ensured minimum 25 samples per disease for adequate model training
+- Preserved symptom co-occurrence patterns from source descriptions
+
+**Stage 4: Demographic Augmentation**
+- Applied demographic features (age, sex) based on disease epidemiology
+- Created separate dataset version with demographics for comparative evaluation
 
 ---
 
@@ -189,35 +227,121 @@ Diseases with <25 training samples were augmented using Mayo Clinic symptom data
 - **Comparison to Random Forest**: We achieved a **+19.7% improvement** over Random Forest with the ensemble.
 - **Top-5 Accuracy (97.9%)**: The correct disease is in the top 5 candidates 97.9% of the time, making this a highly reliable filter for doctors.
 
-### 7.2 Strengths & Limitations
+### 7.2 Strengths
 
-**Strengths:**
+- **Semantic Understanding**: Bridges vocabulary gap between colloquial and clinical terminology
+- **Demographic Integration**: Improves prediction for age/sex-specific diseases (+2.9% improvement)
+- **Hierarchical Architecture**: Interpretable two-stage prediction with specialist models
+- **Class Imbalance Solution**: Demonstrates effective synthetic augmentation for rare diseases
+- **Relative Improvement**: +5.3% over flat baseline, +19.7% over Random Forest
 
-- Semantic understanding bridges vocabulary gap
-- Demographics help for age/sex-specific diseases
-- Interpretable two-stage prediction
+### 7.3 Limitations and Evaluation Considerations
 
-**Limitations:**
+> [!WARNING]
+> **Critical Evaluation Limitations**: This study uses a partially synthetic dataset for evaluation. Real-world clinical validation is required before deployment.
 
-- Negation not explicitly handled ("I don't have fever")
-- Limited to symptom modality (no images/labs)
-- Synthetic augmentation for rare diseases
+**Dataset Composition and Synthetic Data:**
+- Approximately 135 rare diseases (out of 667 total) were augmented with synthetic samples generated from web-sourced symptom descriptions
+- Synthetic samples may not fully capture the complexity and variability of real patient presentations
+- 11 diseases excluded due to insufficient reliable symptom information
+- Test set contains both real and synthetic samples, potentially inflating accuracy estimates
+
+**Evaluation Methodology Gaps:**
+- **Component vs. End-to-End Performance**: The reported 86.4% Top-1 accuracy assumes correctly extracted symptom features (480-dimensional vectors)
+- **Semantic Encoder Accuracy**: Preliminary testing shows ~80% accuracy on colloquial symptom phrase matching, suggesting real-world end-to-end performance would be lower (estimated 65-75%)
+- **No Cross-Dataset Validation**: Model evaluated only on held-out portion of the same augmented dataset
+- **Missing Clinical Validation**: No evaluation by medical professionals or on real electronic health records
+
+**Comparison Validity:**
+- Direct comparison with commercial systems (Ada Health: 51%, Babylon: 60%) should be interpreted cautiously:
+  - Commercial systems evaluated on real clinical data vs. our partially synthetic test set  
+  - Different disease coverage (1000+ vs. 615 diseases)
+  - Evaluation methodologies and symptom input formats may differ significantly
+  - Our dataset size (207K samples) is smaller and more controlled
+
+**Technical Limitations:**
+- **Negation Handling**: System does not explicitly handle negated symptoms (e.g., "I don't have fever")
+- **Modality**: Limited to symptom-based diagnosis; does not incorporate imaging, lab results, or vital signs
+- **Symptom Extraction**: Relies on sentence-transformer similarity; may miss domain-specific medical nuances
+- **Temporal Information**: Does not model symptom onset timing or disease progression
+
+**Generalization Concerns:**
+- Training data primarily from English-language medical websites
+- May not generalize to different populations, healthcare settings, or languages
+- Disease prevalence in dataset may not reflect real-world epidemiology
 
 ---
 
 ## 8. Conclusion
 
-We demonstrated a practical symptom-to-disease system achieving 86.4% Top-1 accuracy on 667 diseases. Key innovations:
+We present a novel hierarchical approach to symptom-based disease prediction that demonstrates the potential of combining semantic understanding with demographic information. Our system achieves **86.4% Top-1 accuracy** on a partially synthetic dataset of 667 diseases, representing a **+5.34% improvement** over flat classification baselines and **+19.7% over Random Forest**.
 
-1. Sentence-level semantic encoding
-2. Demographic-aware prediction (+2.5%)
-3. Hierarchical classification for interpretability
+**Key Contributions:**
+1. **Semantic Bridge**: Multi-qa-mpnet-based encoder maps colloquial symptom descriptions to clinical features
+2. **Hierarchical Specialists**: Two-stage classification with category-specific models improves accuracy and interpretability
+3. **Demographic Integration**: Age/sex features provide meaningful improvement (+2.9%) for relevant diseases
+4. **Class Imbalance Solution**: Demonstrate effective synthetic augmentation methodology for rare diseases
 
-**Future Work:**
+**Critical Limitations:**
+While our results are promising on controlled data, several gaps remain before clinical deployment:
+- Evaluation uses partially synthetic test data (~20% of diseases augmented)
+- Component testing suggests real-world end-to-end accuracy may be 65-75%
+- No validation on independent clinical datasets or by medical professionals
+- Limited to English-language symptom descriptions
 
-- Multimodal extension (X-rays, blood reports)
-- Clinical validation study
-- Deployment as doctor-facing tool
+**Research Value:**
+This work establishes a methodological framework for semantic symptom understanding and hierarchical disease classification. The relative improvements over baselines (+5.34%) demonstrate the value of our architectural choices, even if absolute accuracy requires clinical validation to establish real-world utility.
+
+## 9. Future Work
+
+**Immediate Priorities:**
+
+1. **Clinical Validation Study**
+   - Evaluate on real electronic health record data
+   - Partner with medical institutions for prospective testing
+   - Measure true end-to-end performance (free-text input → diagnosis)
+   - Compare against physician diagnostic accuracy
+
+2. **Cross-Dataset Evaluation**
+   - Test on public medical datasets (e.g., MIMIC-III symptom notes)
+   - Evaluate generalization to different populations
+   - Measure performance degradation on out-of-distribution data
+
+3. **Semantic Encoder Improvements**
+   - Fine-tune multi-qa-mpnet on medical symptom corpora
+   - Add domain-specific training data from clinical notes
+   - Improve negation handling and temporal reasoning
+   - Achieve >90% symptom extraction accuracy
+
+**Medium-Term Extensions:**
+
+4. **Multimodal Integration**
+   - Incorporate vital signs (temperature, blood pressure, heart rate)
+   - Add blood test result interpretation
+   - Integrate medical imaging (X-rays, CT scans) for relevant diseases
+
+5. **Enhanced Interpretability**
+   - Implement attention mechanisms to highlight key symptoms
+   - Generate natural language explanations for predictions
+   - Provide differential diagnosis with confidence-calibrated probabilities
+
+6. **Robustness Improvements**
+   - Handle multi-lingual symptom descriptions
+   - Model disease progression and symptom timing
+   - Address adversarial inputs and edge cases
+
+**Long-Term Vision:**
+
+7. **Clinical Decision Support System**
+   - Deploy as physician-facing tool (not patient-facing)
+   - Integrate with hospital EHR systems
+   - Continuous learning from expert feedback
+   - Regular model retraining with new clinical data
+
+8. **Regulatory Approval**
+   - FDA clearance as clinical decision support software
+   - Compliance with medical device regulations
+   - Rigorous safety and efficacy validation
 
 ---
 
