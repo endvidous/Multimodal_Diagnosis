@@ -10,7 +10,7 @@ which is consumed by downstream ML models (e.g., LightGBM).
 
 Key properties:
 - Sentence-level encoding with top-k mean pooling
-- Continuous evidence output (0–1), not binary
+- Continuous evidence output (0-1), not binary
 - Uses multi-qa-mpnet-base-dot-v1 (768-dim embeddings)
 - Lexical safety net for literal symptom mentions
 """
@@ -29,10 +29,16 @@ class SemanticSymptomEncoder:
         model_name: str = "multi-qa-mpnet-base-dot-v1",
         symptom_vocab_path: Optional[str] = None,
         embeddings_cache_path: Optional[str] = None,
-        device: str = "cpu"
+        device: str = "cpu",
+        threshold: int = 0.25,
+        exponent: int = 1.5,
+        symptom_list: Optional[List[str]] = None,
     ):
         self.model_name = model_name
         self.device = device
+        self.threshold = threshold
+        self.exponent = exponent
+        self._external_symptom_list = symptom_list
 
         # Resolve project root
         project_root = Path(__file__).parent.parent.parent
@@ -55,7 +61,10 @@ class SemanticSymptomEncoder:
         self.model = SentenceTransformer(model_name, device=device)
 
         # Load symptoms
-        self.symptoms = self._load_symptoms()
+        if self._external_symptom_list is not None:
+            self.symptoms = list(self._external_symptom_list)
+        else:
+            self.symptoms = self._load_symptoms()
         self.symptom_to_idx = {s: i for i, s in enumerate(self.symptoms)}
         self.idx_to_symptom = {i: s for i, s in enumerate(self.symptoms)}
 
@@ -121,14 +130,37 @@ class SemanticSymptomEncoder:
 
         return emb
 
+    def set_symptoms(self, symptom_list: List[str], regenerate_embeddings: bool = True):
+        """
+        Replace internal symptom vocabulary with a provided symptom_list (in-memory).
+        If regenerate_embeddings=True, recomputes symptom embeddings immediately.
+        """
+        self.symptoms = list(symptom_list)
+        self.symptom_to_idx = {s: i for i, s in enumerate(self.symptoms)}
+        self.idx_to_symptom = {i: s for i, s in enumerate(self.symptoms)}
+
+        # Ensure embeddings cache path corresponds to model and maybe dataset
+        if regenerate_embeddings:
+            # Remove cache only if shape mismatches or always recompute for dataset-specific vocab:
+            try:
+                emb = np.load(self.embeddings_cache_path)
+                if emb.shape[0] != len(self.symptoms):
+                    print("[Encoder] Cached embeddings mismatch; regenerating")
+                    self.regenerate_embeddings()
+                else:
+                    self.symptom_embeddings = emb
+            except Exception:
+                # No cache or corrupt -> compute
+                self.regenerate_embeddings()
+
     # ------------------------------------------------------------------
     # Core API
     # ------------------------------------------------------------------
 
     def encode_symptoms(self, text: str, return_all_scores: bool = False) -> Dict[str, Any]:
         """
-        Convert free-form symptom text into a 377-dim continuous
-        symptom evidence vector (0–1).
+        Convert free-form symptom text into a 458-dim continuous
+        symptom evidence vector (0-1).
         
         Args:
             text: Input symptom description
@@ -147,17 +179,21 @@ class SemanticSymptomEncoder:
             normalize_embeddings=True
         )
 
-        # Sentence × Symptom similarity
-        sims = sent_emb @ self.symptom_embeddings.T  # (S, 377)
+        # Sentence × Symptom similarity matrix
+        sims = sent_emb @ self.symptom_embeddings.T  # (num_sentences, 458)
 
         # Top-k mean pooling (k=2)
-        k = min(2, sims.shape[0])
-        topk = np.partition(sims, -k, axis=0)[-k:]
-        pooled = topk.mean(axis=0)
+        # k = min(2, sims.shape[0])
+        # topk = np.partition(sims, -k, axis=0)[-k:]
+        # pooled = topk.mean(axis=0)
 
-        # MiniLM calibration
-        evidence = np.clip(pooled - 0.25, 0.0, 1.0)
-        evidence = evidence ** 1.5
+        # Max pooling to get higher confidence matches
+        pooled = sims.max(axis=0)
+
+
+        # Can pass custom threshold and exponents helpful in testing it out 
+        evidence = np.clip(pooled - self.threshold, 0.0, 1.0)
+        evidence = evidence ** self.exponent
 
         # Lexical safety net
         text_n = self._normalize(text)

@@ -1,0 +1,534 @@
+{
+    "headache": [
+        "my head is killing me",
+        "I have a splitting headache",
+        "pounding in my temples",
+        "head hurts really bad",
+        "throbbing pain in my head"
+    ],
+    "fever": [
+        "I'm burning up",
+        "feeling feverish",
+        "running a temperature",
+        "I feel hot and cold",
+        "my body temperature is high"
+    ],
+    "nausea": [
+        "feeling queasy",
+        "I think I'm going to be sick",
+        "my stomach is upset",
+        "feeling like throwing up",
+        "waves of nausea"
+    ],
+    "vomiting": [
+        "I've been throwing up",
+        "can't keep anything down",
+        "I puked several times",
+        "been vomiting all day",
+        "getting sick to my stomach"
+    ],
+    "cough": [
+        "can't stop coughing",
+        "I have a terrible cough",
+        "been coughing all night",
+        "hacking cough won't go away",
+        "constant coughing fits"
+    ],
+    "fatigue": [
+        "I'm exhausted all the time",
+        "no energy at all",
+        "feeling completely drained",
+        "so tired I can barely move",
+        "constant tiredness"
+    ],
+    "chest pain": [
+        "my chest hurts",
+        "pain in my chest area",
+        "sharp pain in my chest",
+        "feeling pressure in my chest",
+        "discomfort in my chest"
+    ],
+    "shortness of breath": [
+        "I can't catch my breath",
+        "having trouble breathing",
+        "feeling winded easily",
+        "gasping for air",
+        "difficulty breathing"
+    ],
+    "dizziness": [
+        "feeling dizzy",
+        "the room is spinning",
+        "lightheaded all the time",
+        "feeling unsteady",
+        "vertigo episodes"
+    ],
+    "abdominal pain": [
+        "my stomach hurts",
+        "belly pain",
+        "cramping in my abdomen",
+        "gut pain",
+        "pain in my stomach area"
+    ],
+    "diarrhea": [
+        "loose stools",
+        "running to the bathroom constantly",
+        "watery bowel movements",
+        "can't stay away from the toilet",
+        "upset stomach with diarrhea"
+    ],
+    "constipation": [
+        "haven't been able to go",
+        "trouble with bowel movements",
+        "feeling backed up",
+        "can't poop",
+        "irregular bowel movements"
+    ],
+    "sore throat": [
+        "my throat hurts",
+        "pain when swallowing",
+        "scratchy throat",
+        "throat is raw",
+        "hurts to swallow"
+    ],
+    "runny nose": [
+        "nose won't stop running",
+        "constantly blowing my nose",
+        "nasal discharge",
+        "nose is dripping",
+        "stuffy and runny nose"
+    ],
+    "joint pain": [
+        "my joints ache",
+        "pain in my joints",
+        "stiff and painful joints",
+        "arthritis-like pain",
+        "aching in my knees and elbows"
+    ],
+    "muscle pain": [
+        "my muscles hurt",
+        "body aches all over",
+        "sore muscles",
+        "muscle soreness",
+        "aching muscles"
+    ],
+    "back pain": [
+        "my back is killing me",
+        "lower back hurts",
+        "pain in my spine",
+        "backache won't go away",
+        "stiff and painful back"
+    ],
+    "rash": [
+        "I have a skin rash",
+        "red spots on my skin",
+        "skin irritation",
+        "breaking out in a rash",
+        "itchy red patches"
+    ],
+    "itching of skin": [
+        "my skin is so itchy",
+        "can't stop scratching",
+        "constant itching",
+        "skin irritation that itches",
+        "itchy all over"
+    ],
+    "swelling": [
+        "everything is swollen",
+        "puffiness in the area",
+        "noticeable swelling",
+        "the area is enlarged",
+        "significant swelling"
+    ],
+    "weight loss": [
+        "I've been losing weight",
+        "unexplained weight loss",
+        "dropping pounds without trying",
+        "clothes are getting loose",
+        "losing weight rapidly"
+    ],
+    "weight gain": [
+        "I've put on weight",
+        "gaining weight unexpectedly",
+        "getting heavier",
+        "clothes are getting tight",
+        "sudden weight gain"
+    ],
+    "loss of appetite": [
+        "I don't feel like eating",
+        "no appetite at all",
+        "food doesn't appeal to me",
+        "not hungry anymore",
+        "can't eat anything"
+    ],
+    "insomnia": [
+        "I can't sleep at night",
+        "trouble falling asleep",
+        "waking up in the middle of the night",
+        "haven't slept well in days",
+        "sleep problems"
+    ],
+    "anxiety and nervousness": [
+        "feeling anxious all the time",
+        "constant worry",
+        "nervous and on edge",
+        "can't calm down",
+        "feeling stressed and anxious"
+    ],
+    "depression": [
+        "feeling really down",
+        "lost interest in everything",
+        "sad all the time",
+        "hopeless feeling",
+        "no motivation for anything"
+    ],
+    "confusion": [
+        "feeling confused",
+        "can't think straight",
+        "mental fog",
+        "having trouble concentrating",
+        "disoriented and confused"
+    ],
+    "memory loss": [
+        "I keep forgetting things",
+        "memory problems",
+        "can't remember what I was doing",
+        "forgetfulness",
+        "trouble with my memory"
+    ],
+    "blurred vision": [
+        "my vision is blurry",
+        "can't see clearly",
+        "things look fuzzy",
+        "eyes aren't focusing",
+        "vision problems"
+    ],
+    "eye pain": [
+        "pain in my eye",
+        "my eyes hurt",
+        "sharp pain behind my eye",
+        "eye discomfort",
+        "aching eyes"
+    ],
+    "ear pain": [
+        "my ear hurts",
+        "pain in my ear",
+        "earache",
+        "throbbing ear pain",
+        "sharp pain in my ear"
+    ],
+    "hearing loss": [
+        "can't hear well",
+        "losing my hearing",
+        "trouble hearing",
+        "sounds are muffled",
+        "hearing problems"
+    ],
+    "nasal congestion": [
+        "my nose is stuffed up",
+        "can't breathe through my nose",
+        "congested sinuses",
+        "blocked nasal passages",
+        "stuffed up nose"
+    ],
+    "wheezing": [
+        "wheezing when I breathe",
+        "whistling sound when breathing",
+        "chest is wheezy",
+        "breathing with a wheeze",
+        "noisy breathing"
+    ],
+    "painful urination": [
+        "it burns when I pee",
+        "pain when urinating",
+        "stinging during urination",
+        "hurts to urinate",
+        "burning sensation when peeing"
+    ],
+    "frequent urination": [
+        "going to the bathroom constantly",
+        "peeing all the time",
+        "urinating more than usual",
+        "always need to use the restroom",
+        "frequent bathroom trips"
+    ],
+    "blood in urine": [
+        "blood when I pee",
+        "urine looks pink or red",
+        "blood in my urine",
+        "noticed blood after urinating",
+        "bloody urine"
+    ],
+    "vaginal discharge": [
+        "unusual discharge down there",
+        "vaginal discharge that's not normal",
+        "discharge from my vagina",
+        "abnormal vaginal discharge",
+        "strange discharge"
+    ],
+    "irregular heartbeat": [
+        "my heart is racing",
+        "heart skipping beats",
+        "irregular pulse",
+        "heart palpitations",
+        "heart beating funny"
+    ],
+    "heart palpitations": [
+        "I can feel my heart pounding",
+        "heart racing for no reason",
+        "fluttering in my chest",
+        "aware of my heartbeat",
+        "heart beating hard"
+    ],
+    "high blood pressure": [
+        "blood pressure is elevated",
+        "hypertension",
+        "high BP reading",
+        "blood pressure through the roof",
+        "elevated blood pressure"
+    ],
+    "sweating": [
+        "sweating a lot",
+        "excessive perspiration",
+        "drenched in sweat",
+        "sweating for no reason",
+        "profuse sweating"
+    ],
+    "night sweats": [
+        "waking up soaked in sweat",
+        "sweating during sleep",
+        "sheets are drenched at night",
+        "night time sweating",
+        "sweating while sleeping"
+    ],
+    "chills": [
+        "feeling chilly",
+        "shivering cold",
+        "can't get warm",
+        "having the chills",
+        "shaking from cold"
+    ],
+    "numbness": [
+        "can't feel my fingers",
+        "numbness in my hands",
+        "tingling and numbness",
+        "lost sensation",
+        "area feels numb"
+    ],
+    "weakness": [
+        "feeling weak",
+        "no strength",
+        "arms and legs feel weak",
+        "general weakness",
+        "muscle weakness"
+    ],
+    "seizure": [
+        "had a seizure",
+        "convulsions",
+        "uncontrollable shaking",
+        "epileptic episode",
+        "blacked out and shook"
+    ],
+    "tremor": [
+        "my hands are shaking",
+        "uncontrollable trembling",
+        "shaky hands",
+        "trembling all over",
+        "can't hold things steady"
+    ],
+    "difficulty swallowing": [
+        "trouble swallowing",
+        "food gets stuck",
+        "hard to swallow",
+        "feels like something is blocking my throat",
+        "pain when swallowing"
+    ],
+    "hoarse voice": [
+        "lost my voice",
+        "voice is raspy",
+        "can barely talk",
+        "hoarseness",
+        "voice sounds different"
+    ],
+    "bleeding gums": [
+        "gums bleed when I brush",
+        "blood from my gums",
+        "bleeding when I floss",
+        "gums are swollen and bleeding",
+        "blood in my mouth from gums"
+    ],
+    "toothache": [
+        "my tooth hurts",
+        "dental pain",
+        "throbbing tooth pain",
+        "pain in my teeth",
+        "sensitive tooth"
+    ],
+    "hair loss": [
+        "losing my hair",
+        "hair falling out",
+        "bald patches appearing",
+        "thinning hair",
+        "hair coming out in clumps"
+    ],
+    "dry skin": [
+        "skin is really dry",
+        "flaky skin",
+        "skin feels tight and dry",
+        "peeling skin",
+        "cracked dry skin"
+    ],
+    "bruising": [
+        "bruising easily",
+        "unexplained bruises",
+        "black and blue marks",
+        "bruises appearing for no reason",
+        "easy bruising"
+    ],
+    "jaundice": [
+        "skin and eyes look yellow",
+        "yellowing of the skin",
+        "yellow tint to eyes",
+        "looking jaundiced",
+        "skin has yellow color"
+    ],
+    "bloating": [
+        "feeling bloated",
+        "stomach feels swollen",
+        "belly is distended",
+        "gas and bloating",
+        "puffy stomach"
+    ],
+    "heartburn": [
+        "burning in my chest after eating",
+        "acid reflux",
+        "chest burning sensation",
+        "indigestion",
+        "stomach acid coming up"
+    ],
+    "sneezing": [
+        "can't stop sneezing",
+        "constant sneezing fits",
+        "sneezing a lot",
+        "achoo all day",
+        "sneezing continuously"
+    ],
+    "leg pain": [
+        "my legs hurt",
+        "pain in my legs",
+        "leg cramps",
+        "aching legs",
+        "throbbing leg pain"
+    ],
+    "leg swelling": [
+        "swollen legs",
+        "legs are puffy",
+        "fluid in my legs",
+        "leg edema",
+        "ankles and legs swollen"
+    ],
+    "knee pain": [
+        "my knee hurts",
+        "pain in my knee",
+        "knee is aching",
+        "stiff knees",
+        "knee joint pain"
+    ],
+    "hip pain": [
+        "pain in my hip",
+        "hip is aching",
+        "can't walk because of hip pain",
+        "hip joint hurts",
+        "sharp hip pain"
+    ],
+    "shoulder pain": [
+        "my shoulder hurts",
+        "pain in my shoulder",
+        "can't lift my arm",
+        "shoulder ache",
+        "rotator cuff pain"
+    ],
+    "neck pain": [
+        "my neck hurts",
+        "stiff neck",
+        "pain in my neck",
+        "can't turn my head",
+        "neck is sore"
+    ],
+    "difficulty breathing": [
+        "hard to breathe",
+        "struggling to get air",
+        "labored breathing",
+        "can't take a deep breath",
+        "breathing is difficult"
+    ],
+    "loss of consciousness": [
+        "passed out",
+        "blacked out",
+        "fainted",
+        "lost consciousness",
+        "collapsed"
+    ],
+    "low blood pressure": [
+        "blood pressure is low",
+        "feeling faint from low BP",
+        "hypotension",
+        "BP dropped",
+        "low blood pressure reading"
+    ],
+    "thirst": [
+        "so thirsty all the time",
+        "can't quench my thirst",
+        "drinking water constantly",
+        "excessive thirst",
+        "always thirsty"
+    ],
+    "excessive urination at night": [
+        "getting up to pee at night",
+        "waking up to urinate",
+        "frequent nighttime urination",
+        "can't sleep through without bathroom trips",
+        "nocturia"
+    ],
+    "skin lesion": [
+        "sore on my skin",
+        "wound that won't heal",
+        "skin abnormality",
+        "lesion on my body",
+        "mark on my skin"
+    ],
+    "eye redness": [
+        "my eyes are red",
+        "bloodshot eyes",
+        "red irritated eyes",
+        "pink eye symptoms",
+        "eyes look inflamed"
+    ],
+    "sensitivity to light": [
+        "light hurts my eyes",
+        "can't handle bright lights",
+        "photosensitive",
+        "eyes hurt in the light",
+        "bothered by light"
+    ],
+    "stiffness": [
+        "feeling stiff all over",
+        "joints are stiff",
+        "morning stiffness",
+        "body feels rigid",
+        "can't move freely"
+    ],
+    "balance problems": [
+        "trouble keeping my balance",
+        "feeling unsteady on feet",
+        "wobbling when I walk",
+        "losing my balance",
+        "coordination issues"
+    ],
+    "slurred speech": [
+        "words coming out wrong",
+        "trouble speaking clearly",
+        "speech is garbled",
+        "can't pronounce words",
+        "talking funny"
+    ]
+}

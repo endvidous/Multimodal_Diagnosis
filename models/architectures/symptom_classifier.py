@@ -15,7 +15,7 @@ class SymptomCategoryClassifier:
             class_weight=class_weight,
             random_state=42,
             verbose=-1,
-            n_jobs=4
+            n_jobs=1
         )
         self.categories = None
         self.feature_names = None
@@ -83,7 +83,7 @@ class SymptomDiseaseClassifier:
             class_weight=class_weight if class_weight else 'balanced',
             random_state=42,
             verbose=-1,
-            n_jobs=4
+            n_jobs=1
         )
         self.diseases = None
         self.feature_names = None
