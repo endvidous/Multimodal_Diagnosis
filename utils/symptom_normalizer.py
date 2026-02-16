@@ -36,8 +36,7 @@ def normalize_symptom(symptom: str, apply_synonyms: bool = True) -> str:
         return ""
     
     # Step 1: Basic cleanup
-    symptom = symptom.lower().strip()
-    
+    symptom = symptom.lower().strip().replace(',', '') 
     # Step 2: Remove pandas/data merge artifacts
     symptom = re.sub(r'\.\d+$', '', symptom)
     

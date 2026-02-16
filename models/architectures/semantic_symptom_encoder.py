@@ -11,7 +11,7 @@ which is consumed by downstream ML models (e.g., LightGBM).
 Key properties:
 - Sentence-level encoding with top-k mean pooling
 - Continuous evidence output (0-1), not binary
-- Uses multi-qa-mpnet-base-dot-v1 (768-dim embeddings)
+- Uses all-mpnet-base-v2 (768-dim embeddings)
 - Lexical safety net for literal symptom mentions
 """
 
@@ -26,12 +26,12 @@ from sentence_transformers import SentenceTransformer
 class SemanticSymptomEncoder:
     def __init__(
         self,
-        model_name: str = "multi-qa-mpnet-base-dot-v1",
+        model_name: str = "all-mpnet-base-v2",
         symptom_vocab_path: Optional[str] = None,
         embeddings_cache_path: Optional[str] = None,
         device: str = "cpu",
-        threshold: int = 0.25,
-        exponent: int = 1.5,
+        threshold: float = 0.15,
+        exponent: float = 0.5,
         symptom_list: Optional[List[str]] = None,
     ):
         self.model_name = model_name

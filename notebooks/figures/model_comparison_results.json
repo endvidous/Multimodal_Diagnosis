@@ -1,0 +1,49 @@
+{
+  "all_results": [
+    {
+      "model": "all-mpnet-base-v2",
+      "threshold": 0.15,
+      "exponent": 0.5,
+      "top1": 0.806,
+      "top3": 0.944,
+      "top5": 0.97,
+      "samples": 1000
+    },
+    {
+      "model": "all-mpnet-base-v2",
+      "threshold": 0.4,
+      "exponent": 0.5,
+      "top1": 0.6123481781376519,
+      "top3": 0.7904858299595142,
+      "top5": 0.8350202429149798,
+      "samples": 988
+    },
+    {
+      "model": "multi-qa-mpnet-base-dot-v1",
+      "threshold": 0.15,
+      "exponent": 0.5,
+      "top1": 0.6730190571715146,
+      "top3": 0.839518555667001,
+      "top5": 0.8816449348044132,
+      "samples": 997
+    },
+    {
+      "model": "multi-qa-mpnet-base-dot-v1",
+      "threshold": 0.4,
+      "exponent": 0.5,
+      "top1": 0.6198179979777553,
+      "top3": 0.7957532861476239,
+      "top5": 0.8412537917087968,
+      "samples": 989
+    }
+  ],
+  "best_config": {
+    "model": "all-mpnet-base-v2",
+    "threshold": 0.15,
+    "exponent": 0.5,
+    "top1": 0.806,
+    "top3": 0.944,
+    "top5": 0.97,
+    "samples": 1000
+  }
+}
